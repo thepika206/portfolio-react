@@ -1,4 +1,4 @@
-const Resume = () => {
+function Resume(){
   return (  
     <>  
       <h1>
