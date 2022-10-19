@@ -3,10 +3,9 @@ import { useParams } from "react-router-dom"
 import { findProject } from "../utilities/findProject"
 
 const ProjectDetails = () => {
-  let projectTitle = useParams()
-  // console.log(projectId)
-  let project = findProject(projectTitle)
-
+  let { projectId }  = useParams()
+  let project = findProject(projectId)
+  
   return (
     <>
       <h1> {project.title} </h1>
@@ -14,7 +13,7 @@ const ProjectDetails = () => {
         <img src={project.image} alt={project.title} className="project-thumbnail"/>
       </a>
       <p>
-        {project.description} - visit the <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>live deployed site</a> or click here for the <a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>githut project</a>
+        {project.description} - visit the <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>live deployed site</a> or click here for the <a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub project</a>
       </p>
       <h5>
           Technologies Used:
