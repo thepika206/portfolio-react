@@ -1,6 +1,6 @@
 html,
 body,
-#root,{
+#root{
   margin: 0;
   height: 100%;
   overflow: hidden;
@@ -9,13 +9,7 @@ body,
   background-color: black;
 }
 
-/* nav {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  padding: 0px 15px 0px 15px;
-  border-bottom: 1px solid rgb(212, 212, 212);
-} */
+
 
 
 .project-thumbnail {
@@ -31,7 +25,6 @@ main {
   background-size: cover;
   background-position: center center;
   background-color: white;
-  /* color: white */
 }
 
 
