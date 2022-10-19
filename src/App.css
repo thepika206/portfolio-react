@@ -1,7 +1,6 @@
 html,
 body,
-#root,
-main {
+#root,{
   margin: 0;
   height: 100%;
   overflow: hidden;
@@ -24,27 +23,17 @@ main {
 }
 
 main {
-  /* height: 100%; */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   background-size: cover;
   background-position: center center;
-  background-color: royalblue;
-  color: white
+  background-color: white;
+  /* color: white */
 }
 
-nav{
-  background-color: #555;
-  color: white;
-  padding: 10px 0;
-}
 
-nav > ul {
-  margin: 0;
-}
 
-nav > ul > li > a {
-  color: white
-}
+

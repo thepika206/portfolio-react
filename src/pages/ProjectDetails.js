@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom"
 import { findProject } from "../utilities/findProject"
 
 const ProjectDetails = () => {
-  let { projectId }  = useParams()
+//route path reminder '/projects/:projectId'
+  let { projectId }  = useParams() 
   let project = findProject(projectId)
   
   return (

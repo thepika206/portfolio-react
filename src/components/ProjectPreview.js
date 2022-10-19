@@ -13,7 +13,7 @@ const ProjectPreview = ({project}) => {
         <section>
           <h3>{project.title}</h3>
         <a href={projectUrl}>
-          <button> Learn More </button>
+          <button className="btn btn-success mb-3"> Learn More </button>
         </a>
           
         </section>
