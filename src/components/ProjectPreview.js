@@ -1,4 +1,9 @@
+import { hyphenateWords } from "../utilities/hyphenateWords";
+
 const ProjectPreview = ({project}) => {
+  console.log(project.title)
+  let projectUrl = ('/projects/' + hyphenateWords(project.title))
+  console.log(projectUrl)
   return (  
     <li>
         <div>
@@ -7,7 +12,10 @@ const ProjectPreview = ({project}) => {
           </a>
         <section>
           <h3>{project.title}</h3>
+        <a href={projectUrl}>
           <button> Learn More </button>
+        </a>
+          
         </section>
 
         
