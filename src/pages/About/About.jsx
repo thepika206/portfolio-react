@@ -17,7 +17,7 @@ function About(){
               <li>Single Page Application</li>
             </ul>
             <a href="/projects">
-                <button className="btn btn-primary">View Projects</button>
+                <button className="btn btn-dark">View Projects</button>
             </a>
           </div>
         </div>
@@ -41,7 +41,7 @@ function About(){
               <li>Lead Sales and Marketing: Lead acquisition and distribution systems</li>
             </ul>
             <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>
-                <button className="btn btn-primary">Download Resume</button>
+                <button className="btn btn-outline-dark">Download Resume</button>
             </a>
           </div>
         </div>

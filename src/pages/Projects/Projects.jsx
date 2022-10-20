@@ -8,6 +8,9 @@ function Projects(){
       <div>
         <ProjectList projects={projectsData} />
       </div>
+      <a href="/about">
+        <button className="btn btn-outline-dark">Back to About</button>
+      </a>
     </>
   )
 }

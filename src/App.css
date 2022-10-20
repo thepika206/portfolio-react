@@ -37,5 +37,10 @@ main {
   /* padding-top: 20px; */
 }
 
-
+.page-container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 

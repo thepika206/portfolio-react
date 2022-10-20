@@ -8,19 +8,29 @@ const ProjectDetails = () => {
   let project = findProject(projectId)
   
   return (
-    <main>
-      <h1> {project.title} </h1>
-      <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-        <img src={project.image} alt={project.title} className="project-thumbnail"/>
+    <div>
+      <a href="/projects">
+        <button className="btn btn-outline-dark mb-3 mt-3">Back to Projects</button>
       </a>
-      <p>
-        {project.description} - visit the <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>live deployed site</a> or click here for the <a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub project</a>
-      </p>
-      <h5>
-          Technologies Used:
-      </h5> 
-      <p>{project.technologies}</p>
-    </main>  
+      <h1> {project.title} 
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <button className="btn btn-dark m-3">
+          Launch Live App
+          </button>
+        </a>
+      </h1>
+      <h3>Technologies: {project.technologies}</h3>
+      <ul>
+        <li>{project.description}</li>
+        <li><a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>Live Deployed App</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub Project</a></li>
+      </ul>
+      
+      <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+        <img src={project.image} alt={project.title} className="img-fluid"/>
+      </a>
+      <h5>Screen image from app</h5>
+    </div>
   )
 }
 
