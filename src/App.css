@@ -3,10 +3,10 @@ body,
 #root{
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  /* background-color: black; */
 }
 
 
@@ -16,17 +16,26 @@ body,
   max-width : 500px;
 }
 
+.card {
+  max-width: 400px;
+}
+
+.card-image {
+  max-width: 400px
+}
+
 main {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   background-size: cover;
   background-position: center center;
   background-color: white;
+  padding-top: 60px;
+  /* padding-top: 20px; */
 }
-
 
 
 

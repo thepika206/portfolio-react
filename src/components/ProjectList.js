@@ -2,14 +2,14 @@ import ProjectPreview from "./ProjectPreview";
 
 const ProjectList = ({projects}) => {
   return (  
-    <ul>
+    <div>
     {projects.map(project => 
       <ProjectPreview 
         key={project.repositoryLink}
         project={project}
       />
     )}
-    </ul>
+    </div>
 
   )
 }

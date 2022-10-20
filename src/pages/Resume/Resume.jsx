@@ -5,8 +5,12 @@ function Resume(){
         Resume
       </h1>
       <p>
-      Download my <a href="/resume/Patrick-Cheung-resume.pdf" download>resume</a>
+      <a href="/resume/Patrick-Cheung-resume.pdf" download>Download resume</a>
       </p>
+      <p>
+      <a src="/resume/Patrick-Cheung-resume.pdf" > </a>
+      </p>
+
     </>
   )
 }

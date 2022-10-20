@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   let project = findProject(projectId)
   
   return (
-    <>
+    <main>
       <h1> {project.title} </h1>
       <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
         <img src={project.image} alt={project.title} className="project-thumbnail"/>
@@ -20,7 +20,7 @@ const ProjectDetails = () => {
           Technologies Used:
       </h5> 
       <p>{project.technologies}</p>
-    </>  
+    </main>  
   )
 }
 

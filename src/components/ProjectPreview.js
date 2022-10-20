@@ -5,22 +5,22 @@ const ProjectPreview = ({project}) => {
   let projectUrl = ('/projects/' + hyphenateWords(project.title))
   console.log(projectUrl)
   return (  
-    <li>
-        <div>
-          <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-            <img src={project.image} alt={project.title} className="project-thumbnail"/>
+    <div className="">
+        <div className="card mb-2">
+          <a href={projectUrl}>
+            <img src={project.image} alt={project.title} className="project-thumbnail card-image p-2"/>
           </a>
-        <section>
+        <div className="card-body">
           <h3>{project.title}</h3>
         <a href={projectUrl}>
-          <button className="btn btn-success mb-3"> Learn More </button>
+          <button className="btn btn-primary mb-3"> Learn More </button>
         </a>
           
-        </section>
+        </div>
 
         
         </div>
-      </li>
+      </div>
   );
 } 
 export default ProjectPreview

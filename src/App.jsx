@@ -13,13 +13,13 @@ function App() {
   return (
     <>
       <NavBar />
-        <main>
+        <main className='d-flex flex-column align-items-center'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/resume' element={<Resume />} />
+        {/* <Route path='/resume' element={<Resume />} /> */}
         <Route path='/projects/:projectId' element={<ProjectDetails />} />
       </Routes>
         </main>
