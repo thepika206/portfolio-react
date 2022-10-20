@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   let project = findProject(projectId)
   
   return (
-    <div>
+    <div className="p-3">
       <a href="/projects">
         <button className="btn btn-outline-dark mb-3 mt-3">Back to Projects</button>
       </a>

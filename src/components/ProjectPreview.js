@@ -12,7 +12,7 @@ const ProjectPreview = ({project}) => {
           </a>
         <div className="card-body">
           <h3>{project.title}</h3>
-        <a href={projectUrl}>
+        <a href={'/projects/' + hyphenateWords(project.title)}>
           <button className="btn btn-dark mb-3"> Learn More </button>
         </a>
           
