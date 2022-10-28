@@ -19,9 +19,11 @@ const ProjectDetails = () => {
           </button>
         </a>
       </h1>
-      <h3>Technologies: {project.technologies}</h3>
+      <p>{project.description}</p>
+      <h3>Summary</h3>
       <ul>
-        <li>{project.description}</li>
+        <li>Technologies: {project.technologies}</li>
+        {project.otherContributors?<li>{project.otherContributors}</li>: <></>}
         <li><a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>Live Deployed App</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub Project</a></li>
       </ul>

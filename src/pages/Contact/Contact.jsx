@@ -2,8 +2,14 @@ function Contact(){
   return (  
     <>
       <div className="page-container-center">
-        <div className="card p-2">
-          <div className="card-body">
+        <div className="card">
+          <img 
+            className="card-img-top mb-3 card-image" 
+            src="https://i.imgur.com/hcGYNrO.jpg" 
+            title="source: imgur.com" 
+            alt="headshot of Patrick Cheung" 
+          />
+          <div className="card-body p-2">
             <h2 className="card-title">Contact</h2>
             <ul>
               <li>
@@ -15,9 +21,12 @@ function Contact(){
               <li>
                 <a href="https://github.com/thepika206">GitHub</a>
               </li>
+              <li>
+                <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
+              </li>
             </ul>
             <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>
-                <button className="btn btn-dark">Download Resume</button>
+                <button className="btn btn-outline-dark">Back to About</button>
             </a>
           </div>
         </div>
