@@ -5,6 +5,9 @@ function About(){
     <>
       <h1>About</h1>
       <img className="card-img-top mb-3 card-image" src="https://i.imgur.com/hcGYNrO.jpg" title="source: imgur.com" alt="headshot of Patrick Cheung" />
+            <a href="/projects">
+                <button className="btn btn-dark">View Projects</button>
+            </a>
       <div className="card-deck">
         <div className="card m-3" >
           <div className="card-body">
@@ -16,9 +19,6 @@ function About(){
               <li>Model View Controller</li>
               <li>Single Page Application</li>
             </ul>
-            <a href="/projects">
-                <button className="btn btn-dark">View Projects</button>
-            </a>
           </div>
         </div>
         <div className="card m-3" >

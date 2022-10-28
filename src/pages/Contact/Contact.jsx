@@ -25,7 +25,7 @@ function Contact(){
                 <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
               </li>
             </ul>
-            <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>
+            <a href="/about">
                 <button className="btn btn-outline-dark">Back to About</button>
             </a>
           </div>
