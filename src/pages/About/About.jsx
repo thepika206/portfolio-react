@@ -12,8 +12,8 @@ function About(){
       <div className="card-deck" id="about-card-container">
         <div className="card m-3">
           <div className="card-body">
-            <h3 className="card-title">Life beyond Work</h3>
-            <p>Patrick was born in the Pacific Northwest and loves the outdoors, especially bass fishing. He now resides in San Antonio Texas with his wife Melinda raising their two children and can often be found playing a friendly hand of Pokemon TCG at the kitchen table.</p> 
+            <h3 className="card-title">Start with "Why"</h3>
+            <p>Patrick has been empowering teams of developers, testers and designers to create excellent products for many years as a Product Owner. Recently he discovered the satisfaction of coding and brings a wealth of perspective and zeal for creating and maintaining software systems.</p> 
           </div>
         </div>
         <div className="card m-3" >
