@@ -19,8 +19,8 @@ const ProjectDetails = () => {
           </button>
         </a>
       </h1>
-      <p>{project.description}</p>
-      <h3>Summary</h3>
+      <h5>{project.description}</h5>
+      
       <ul>
         <li>Technologies: {project.technologies}</li>
         {project.otherContributors?<li>{project.otherContributors}</li>: <></>}

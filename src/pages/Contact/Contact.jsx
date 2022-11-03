@@ -1,17 +1,20 @@
 function Contact(){
   return (  
     <>
-      <div className="page-container-center">
-        <div className="card">
-          <img 
-            className="card-img-top mb-3 card-image" 
-            src="https://i.imgur.com/hcGYNrO.jpg" 
-            title="source: imgur.com" 
-            alt="headshot of Patrick Cheung" 
-          />
-          <div className="card-body p-2">
-            <h2 className="card-title">Contact</h2>
-            <ul>
+      <h1>Contact</h1>
+      <a href="/about">
+                <button className="btn btn-outline-dark">Back to About</button>
+            </a>
+      <div className="card w-50 m-3">
+        <div className="card-body">
+          <h3 className="card-title">Life beyond Work</h3>
+          <p>Patrick is an avid fisherman and bass guitar player.  He resides in San Antonio Texas with his wife and two children.</p> 
+        </div>
+      </div>
+      <div className="card w-50 m-3">
+        <div className="card-body">
+          <h3 className="card-title">Information</h3>
+          <ul>
               <li>
                 <a href="mailto:pika206@gmail.com">pika206@gmail.com</a>
                 </li>
@@ -25,14 +28,9 @@ function Contact(){
                 <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
               </li>
             </ul>
-            <a href="/about">
-                <button className="btn btn-outline-dark">Back to About</button>
-            </a>
-          </div>
+
         </div>
-      </div>
-      
-      
+      </div>      
     </>
   )
 }

@@ -9,45 +9,34 @@ function About(){
             <a href="/projects">
                 <button className="btn btn-dark">View Projects</button>
             </a>
-      <div className="card-deck">
+      <div className="card-deck" id="about-card-container">
+        <div className="card m-3">
+          <div className="card-body">
+            <h3 className="card-title">Life beyond Work</h3>
+            <p>Patrick was born in the Pacific Northwest and loves the outdoors, especially bass fishing. He now resides in San Antonio Texas with his wife Melinda raising their two children and can often be found playing a friendly hand of Pokemon TCG at the kitchen table.</p> 
+          </div>
+        </div>
         <div className="card m-3" >
           <div className="card-body">
             <h3 className="card-title">Technologies</h3>
             <ul>
               {techSkillsData.map(skill =>
-                <li>{skill.title}</li>
+                <li className="fs-5">{skill.title}</li>
               )}
             </ul>
           </div>
         </div>
-        <div className="card m-3" >
-          <div className="card-body">
-            <h3 className="card-title">Product Management</h3>
-            <ul>
-              <li>Agile Backlog and Roadmap prioritization</li>
-              <li>Scrum Sprint execution</li>
-              <li>User Stories and Acceptance Testing</li>
-              <li>Product Release Management</li>
-            </ul>
-          </div>
-        </div>
         <div className="card m-3">
           <div className="card-body">
-            <h3 className="card-title">Industry Experience</h3>
+            <h3 className="card-title">Industry Product Experience</h3>
             <ul>
-              <li>Insurance: Customer, Agency Management systems</li>
-              <li>Human Resources: Ethics, Policy Management systems</li>
-              <li>Lead Sales and Marketing: Lead acquisition and distribution systems</li>
+              <li className="">CRMs: Custom Management systems</li>
+              <li className="">HR: Disclosure/COI, Policy Management systems, Learning Management</li>
+              <li className="">Lead management: Lead enhancement and distribution </li>
             </ul>
             <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>
                 <button className="btn btn-outline-dark">Download Resume</button>
             </a>
-          </div>
-        </div>
-        <div className="card m-3">
-          <div className="card-body">
-            <h3 className="card-title">Life beyond Work</h3>
-            <p>Patrick was born in the Pacific Northwest and loves the outdoors, especially bass fishing. He now resides in San Antonio Texas with his wife Melinda raising their two children and can often be found playing a friendly hand of Pokemon TCG at the kitchen table.</p> 
           </div>
         </div>
       </div>

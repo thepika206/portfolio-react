@@ -12,8 +12,8 @@ function Home(){
             <h3 className="card-title">An Engineer with Product Experience</h3>
             <ul>
               <li className="fs-5">10 years experience in the Software Industry</li>
-              <li className="fs-5">Recently transitioned from PO to Engineer</li>
-              <li className="fs-5">A Product Minded Approach</li>
+              <li className="fs-5">Transitioned from Product Management to Engineering</li>
+              <li className="fs-5">A Whole Product Minded Approach</li>
             </ul>
           </div>
         </div>
