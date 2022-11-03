@@ -5,6 +5,7 @@ const projectsData = [
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "MERN Stack: MongoDB, Express.js, React.js, Node.js",
     image: "https://i.imgur.com/lMq2ujy.png",
+    image2: "https://i.imgur.com/TMy6WdR.png",
     repositoryLink: "https://github.com/thepika206/sales-tracker",
     deploymentLink: "https://wifi-travelers-plane.netlify.app/",
   },
