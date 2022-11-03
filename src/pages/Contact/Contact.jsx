@@ -3,14 +3,8 @@ function Contact(){
     <>
       <h1>Contact</h1>
       <a href="/about">
-                <button className="btn btn-outline-dark">Back to About</button>
-            </a>
-      <div className="card w-50 m-3">
-        <div className="card-body">
-          <h3 className="card-title">Life beyond Work</h3>
-          <p>Patrick is an avid fisherman and bass guitar player.  He resides in San Antonio Texas with his wife and two children.</p> 
-        </div>
-      </div>
+        <button className="btn btn-outline-dark">Back to About</button>
+      </a>
       <div className="card w-50 m-3">
         <div className="card-body">
           <h3 className="card-title">Information</h3>
@@ -28,9 +22,14 @@ function Contact(){
                 <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
               </li>
             </ul>
-
         </div>
       </div>      
+      <div className="card w-50 m-3">
+        <div className="card-body">
+          <h3 className="card-title">Personal Life</h3>
+          <p>Patrick is an avid fisherman and plays multiple music instruments.  He resides in San Antonio Texas with his wife and two children.</p> 
+        </div>
+      </div>
     </>
   )
 }
