@@ -17,7 +17,12 @@ body,
 }
 
 .card {
-  max-width: 400px;
+  /* max-width: 400px; */
+}
+
+#home-card{
+  width: 100%;
+  max-width: 786px;
 }
 
 .card-image {

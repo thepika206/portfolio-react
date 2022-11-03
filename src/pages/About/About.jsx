@@ -1,3 +1,4 @@
+import { techSkillsData } from "../../data/techSkills"
 function About(){
   
   return (  
@@ -11,13 +12,11 @@ function About(){
       <div className="card-deck">
         <div className="card m-3" >
           <div className="card-body">
-            <h3 className="card-title">Technical Skills</h3>
+            <h3 className="card-title">Technologies</h3>
             <ul>
-              <li>React.js (this site is built in React btw!)</li>
-              <li>Node.js and Express</li>
-              <li>Mongo and Mongoose</li>
-              <li>Model View Controller</li>
-              <li>Single Page Application</li>
+              {techSkillsData.map(skill =>
+                <li>{skill.title}</li>
+              )}
             </ul>
           </div>
         </div>
