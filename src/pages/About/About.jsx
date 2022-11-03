@@ -34,7 +34,7 @@ function About(){
               <li className="">HR: Disclosure/COI, Policy Management systems, Learning Management</li>
               <li className="">Lead management: Lead enhancement and distribution </li>
             </ul>
-            <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>
+            <a href="/resume/Patrick-Cheung-resume.pdf" download>
                 <button className="btn btn-outline-dark">Download Resume</button>
             </a>
           </div>

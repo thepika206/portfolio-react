@@ -19,7 +19,7 @@ function Contact(){
                 <a href="https://github.com/thepika206">GitHub</a>
               </li>
               <li>
-                <a href="/resume/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
+                <a href="/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
               </li>
             </ul>
         </div>
