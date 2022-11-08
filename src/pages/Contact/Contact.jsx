@@ -27,7 +27,7 @@ function Contact(){
       <div className="card w-50 m-3">
         <div className="card-body">
           <h3 className="card-title">Personal Life</h3>
-          <p>Patrick is an avid fisherman and plays multiple music instruments.  He resides in San Antonio Texas with his wife and two children.</p> 
+          <p>Patrick resides in San Antonio Texas with his family.  He plays multiple music instruments and enjoys fishing.</p> 
         </div>
       </div>
     </>

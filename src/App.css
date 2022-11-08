@@ -22,8 +22,15 @@ body,
 
 #home-card{
   width: 100%;
-  max-width: 786px;
+  max-width: 500px;
 }
+
+#home-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+
 
 .card-image {
   max-width: 400px

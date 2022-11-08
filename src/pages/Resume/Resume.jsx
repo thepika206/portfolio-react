@@ -4,9 +4,9 @@ function Resume(){
       <h1>
         Resume
       </h1>
-      <p>
-      <a href="/resume/Patrick-Cheung-resume.pdf" download>Download resume</a>
-      </p>
+      <a href="/resume/Patrick-Cheung-resume.pdf" download>
+        <button className="btn btn-dark">Download Resume</button>
+      </a>
     </>
   )
 }

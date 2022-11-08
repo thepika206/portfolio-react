@@ -12,8 +12,8 @@ function About(){
       <div className="card-deck" id="about-card-container">
         <div className="card m-3">
           <div className="card-body">
-            <h3 className="card-title">Start with "Why"</h3>
-            <p>Patrick has been empowering teams of developers, testers and designers to create excellent products for many years as a Product Owner. Recently he discovered the satisfaction of coding and brings a wealth of perspective and zeal for creating and maintaining software systems.</p> 
+            <h3 className="card-title">From Product Owner to Developer...</h3>
+            <p>After many years of Product Management, Patrick found his favorite part of the job was spent investigating code with fellow developers.  After a period of self-teaching, in 2022 he initiated a formal career switch into Software Development by entering a full-time bootcamp at General Assembly.</p> 
           </div>
         </div>
         <div className="card m-3" >
@@ -28,15 +28,12 @@ function About(){
         </div>
         <div className="card m-3">
           <div className="card-body">
-            <h3 className="card-title">Industry Product Experience</h3>
+            <h3 className="card-title">Industry Experience</h3>
             <ul>
               <li className="">CRMs: Custom Management systems</li>
               <li className="">HR: Disclosure/COI, Policy Management systems, Learning Management</li>
               <li className="">Lead management: Lead enhancement and distribution </li>
             </ul>
-            <a href="/resume/Patrick-Cheung-resume.pdf" download>
-                <button className="btn btn-outline-dark">Download Resume</button>
-            </a>
           </div>
         </div>
       </div>
