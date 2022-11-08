@@ -30,6 +30,11 @@ const techSkillsData = [
     image: "",
   },
   {
+    title: "Django",
+    type: "application-framework",
+    image: "",
+  },
+  {
     title: "Mongoose",
     type: "object modeling tool",
     image: "",

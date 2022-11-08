@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: "Plan.e",
-    description: "Plan your next great vacation in this Full Stack React app",
+    description: "A travel app - full stack with a decoupled backend and JWT Auth",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "MERN Stack: MongoDB, Express.js, React.js, Node.js",
     image: "https://i.imgur.com/lMq2ujy.png",
@@ -11,7 +11,7 @@ const projectsData = [
   },
   {
     title: "Sales Tracker",
-    description: "Manage your Sales Leads and Customers",
+    description: "Full CRUD app featuring Google OAuth",
     
     technologies: "MongoDB, Mongoose, Express.js, Node.js, EJS templates",
     image: "https://i.imgur.com/u3lBr6V.png",
