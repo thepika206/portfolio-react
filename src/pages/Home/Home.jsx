@@ -7,7 +7,7 @@ function Home(){
       <h2>Software Developer</h2>
       <img id="home-image" className="mb-3 img-fluid" src="https://i.imgur.com/hcGYNrO.jpg" title="source: imgur.com" alt="headshot of Patrick Cheung" />
       {/* <h4>An Engineer with Product Experience</h4> */}
-      <div className="card border-light m-3" id="home-card">
+      <div className="card m-3" id="home-card">
           <div className="card-body">
             <h3 className="card-title">An Engineer with Product Experience</h3>
             <ul>
