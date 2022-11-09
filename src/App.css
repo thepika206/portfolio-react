@@ -63,3 +63,8 @@ nav a {
 #about-card-container {
   max-width: 600px;
 }
+
+
+.italic-text{
+  font-style:italic;
+}
