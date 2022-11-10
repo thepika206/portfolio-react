@@ -22,6 +22,7 @@ function Contact(){
                 <a href="/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
               </li>
             </ul>
+            <img src="https://www.codewars.com/users/thepika206/badges/small" alt="codewars badge" />
         </div>
       </div>      
       <div className="card w-50 m-3">
