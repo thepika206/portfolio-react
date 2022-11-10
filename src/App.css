@@ -9,11 +9,13 @@ body,
   /* background-color: black; */
 }
 
-
+.project-preview-card{
+  max-width: 500px;
+}
 
 
 .project-thumbnail {
-  max-width : 500px;
+  /* max-width : 500px; */
 }
 
 .card {
@@ -47,6 +49,7 @@ main {
   background-color: white;
   padding-top: 60px;
   /* padding-top: 20px; */
+  background-color: lightgray;
 }
 
 .page-container-center {
