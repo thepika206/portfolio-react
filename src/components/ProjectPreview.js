@@ -5,7 +5,7 @@ const ProjectPreview = ({project}) => {
   let projectUrl = ('/projects/' + hyphenateWords(project.title))
   console.log(projectUrl)
   return (  
-      <div className="card mb-2 project-preview-card">
+      <div className="card m-2 project-preview-card">
         <a href={projectUrl}>
           <img src={project.image} alt={project.title} className="project-thumbnail card-img-top p-2"/>
         </a>

@@ -5,23 +5,8 @@ const techSkillsData = [
     image: "",
   },
   {
-    title: "HTML5",
-    type: "language",
-    image: "",
-  },
-  {
-    title: "CSS",
-    type: "language",
-    image: "",
-  },
-  {
     title: "Python3",
     type: "language",
-    image: "",
-  },
-  {
-    title: "Node.js",
-    type: "runtime environment",
     image: "",
   },
   {
@@ -30,17 +15,17 @@ const techSkillsData = [
     image: "",
   },
   {
+    title: "Node.js",
+    type: "runtime environment",
+    image: "",
+  },
+  {
     title: "Django",
     type: "application-framework",
     image: "",
   },
   {
-    title: "Mongoose",
-    type: "object modeling tool",
-    image: "",
-  },
-  {
-    title: "MongoDB",
+    title: "MongoDB / Mongoose",
     type: "document database",
     image: "",
   },
@@ -49,8 +34,13 @@ const techSkillsData = [
     image: "SQL database",
   },
   {
-    title: "Docker",
-    type: "container tool",
+    title: "HTML5",
+    type: "language",
+    image: "",
+  },
+  {
+    title: "CSS",
+    type: "language",
     image: "",
   },
   {

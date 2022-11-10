@@ -2,7 +2,7 @@ import ProjectPreview from "./ProjectPreview";
 
 const ProjectList = ({projects}) => {
   return (  
-    <div>
+    <div className="card-group">
     {projects.map(project => 
       <ProjectPreview 
         key={project.repositoryLink}
