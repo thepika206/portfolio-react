@@ -46,8 +46,8 @@ const projectsData = [
     description: "An web game created early in the bootcamp",
     
     technologies: "JavaScript",
-    takeaways: "Organizing the js file into game constants, game variables, dom elements, event handling, and game logic functions",
-    image: "https://i.imgur.com/91gLy6s.png",
+    takeaways: "game variables, dom elements, event handling, game functions",
+    image: "https://i.imgur.com/ZV4mjRb.png",
     repositoryLink: "https://github.com/thepika206/ttt-weekend",
     deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
   },
