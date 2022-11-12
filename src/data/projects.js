@@ -22,6 +22,15 @@ const projectsData = [
     deploymentLink: "https://wifi-travelers-plane.netlify.app/",
   },
   {
+    title: "Portfolio",
+    description: "This portfolio is built from scratch in React.  ",
+    technologies: "React.js, Bootstrap",
+    takeaways: "React Components clarify the site and page structure",
+    image: "https://i.imgur.com/I2TctAL.png",
+    repositoryLink: "https://github.com/thepika206/portfolio-react",
+    deploymentLink: "https://patrick-cheung-portfolio.netlify.app/",
+  },
+  {
     title: "Sales Tracker",
     description: "Full CRM app for tracking clients",
     
