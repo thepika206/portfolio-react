@@ -41,6 +41,16 @@ const projectsData = [
     repositoryLink: "https://github.com/thepika206/play-blackjack",
     deploymentLink: "https://thepika206-play-blackjack.netlify.app/",
   },
+  {
+    title: "Rock Paper Scissor",
+    description: "An web game",
+    
+    technologies: "JavaScript",
+    takeaways: "This app was created prior to the GA bootcamp - Programming is fun!",
+    image: "https://i.imgur.com/3qzc0Tz.png",
+    repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
+    deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
+  },
 ]
 
 export {
