@@ -14,7 +14,7 @@ function Projects(){
         <button className="btn btn-dark m-3">Lets Connect</button>
       </a>
       </span>
-      <div>
+      <div className="">
         <ProjectList projects={projectsData} />
       </div>
     </>
