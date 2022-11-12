@@ -19,7 +19,7 @@ function Contact(){
                 <a href="https://github.com/thepika206">GitHub</a>
               </li>
               <li>
-                <a href="/resume/Patrick-Cheung-resume.pdf" download>Download Resume</a>
+                <a href="/resume/Resume-Patrick-Cheung.pdf" download>Download Resume</a>
               </li>
             </ul>
             <img src="https://www.codewars.com/users/thepika206/badges/small" alt="codewars badge" />
