@@ -46,8 +46,8 @@ const projectsData = [
     description: "An web game",
     
     technologies: "JavaScript",
-    takeaways: "This app was created prior to the GA bootcamp - Programming is fun!",
-    image: "https://i.imgur.com/3qzc0Tz.png",
+    takeaways: "I created this app prior to the bootcamp... If I can make this, what will I create next?",
+    image: "https://i.imgur.com/7KgxH6T.png",
     repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
     deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
   },
