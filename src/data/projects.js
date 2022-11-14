@@ -1,15 +1,15 @@
 const projectsData = [
-  // {
-  //   title: "Bass Collector",
-  //   description: "An collection app for keeping track of your bass-related musician gear",
+  {
+    title: "Bass Collector",
+    description: "Keep track of your collection of bass gear",
     
-  //   technologies: "Django, Python",
-  //   takeaways: "Learned Python and Django framework for rapid feature development using Class Based Views and built-in auth",
-  //   image: "",
-  //   image2: "",
-  //   repositoryLink: "https://github.com/thepika206/bass-collector",
-  //   deploymentLink: "",
-  // },
+    technologies: "Django, Python",
+    takeaways: "Demonstrate Python and Django, including Class Based Views",
+    image: "https://i.imgur.com/UHjDoj4.png",
+    image2: "",
+    repositoryLink: "https://github.com/thepika206/bass-collector",
+    deploymentLink: "https://bass-and-amp-collector.herokuapp.com/",
+  },
   {
     title: "Plan.e",
     description: "A travel app that lets you plan a trip and share ideas for what to do",
@@ -23,7 +23,7 @@ const projectsData = [
   },
   {
     title: "Portfolio",
-    description: "This portfolio is built from scratch in React.  ",
+    description: "My portfolio, built from scratch in React",
     technologies: "React.js, Bootstrap",
     takeaways: "React Components clarify the site and page structure",
     image: "https://i.imgur.com/I2TctAL.png",
