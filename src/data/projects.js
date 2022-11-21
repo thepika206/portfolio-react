@@ -61,26 +61,26 @@ const projectsData = [
     repositoryLink: "https://github.com/thepika206/play-blackjack",
     deploymentLink: "https://thepika206-play-blackjack.netlify.app/",
   },
-  {
-    title: "Tic Tac Toe",
-    description: "An web game created early in the bootcamp",
+  // {
+  //   title: "Tic Tac Toe",
+  //   description: "An web game created early in the bootcamp",
     
-    technologies: "JavaScript",
-    takeaways: "game variables, dom elements, event handling, game functions",
-    image: "https://i.imgur.com/ZV4mjRb.png",
-    repositoryLink: "https://github.com/thepika206/ttt-weekend",
-    deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
-  },
-  {
-    title: "Rock Paper Scissor",
-    description: "An web game",
+  //   technologies: "JavaScript",
+  //   takeaways: "game variables, dom elements, event handling, game functions",
+  //   image: "https://i.imgur.com/ZV4mjRb.png",
+  //   repositoryLink: "https://github.com/thepika206/ttt-weekend",
+  //   deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
+  // },
+  // {
+  //   title: "Rock Paper Scissor",
+  //   description: "An web game",
     
-    technologies: "JavaScript",
-    takeaways: "I created this app prior to the bootcamp... If I can make this, what will I create next?",
-    image: "https://i.imgur.com/7KgxH6T.png",
-    repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
-    deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
-  },
+  //   technologies: "JavaScript",
+  //   takeaways: "I created this app prior to the bootcamp... If I can make this, what will I create next?",
+  //   image: "https://i.imgur.com/7KgxH6T.png",
+  //   repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
+  //   deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
+  // },
 ]
 
 export {
