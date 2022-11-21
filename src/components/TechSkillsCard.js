@@ -8,6 +8,9 @@ const TechSkillsCard = () => {
               <li className="fs-5" key={skill.title}>{skill.title}</li>
             )}
           </ul>
+          <a href="/projects">
+            <button className="btn btn-dark">View Projects</button>
+        </a>
       </div>
     </div>
   )

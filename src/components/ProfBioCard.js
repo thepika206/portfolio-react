@@ -2,14 +2,14 @@ const ProfBioCard = () => {
   return (  
     <div className="card m-3">
       <div className="card-body">
-        <h3 className="card-title">PO Experience</h3>
+        <h3 className="card-title">Professional Background in Software</h3>
         <ul>
-          <li>Real-World Software Knowledge</li>
-          <li>Functional Testing and Design Experience</li>
-          <li>Intensely Curious</li>
+          <li>Technical Support, Implementation</li>
+          <li>Product Owner (5+ yrs)</li>
+          <li>CAREER PIVOT to Software Developer</li>
         </ul> 
-        <a href="/projects">
-            <button className="btn btn-dark">View Projects</button>
+        <a href="/resume/Resume-Patrick-Cheung.pdf" download>
+          <button className="btn btn-dark">Download Full Resume</button>
         </a>
       </div>
     </div>

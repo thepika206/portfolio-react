@@ -4,9 +4,9 @@ const IndustryXpCard = () => {
       <div className="card-body">
         <h3 className="card-title">Industry Experience</h3>
         <ul>
-          <li className="">CRMs: Custom Management systems</li>
-          <li className="">HR: Disclosure/COI, Policy Management systems, Learning Management</li>
-          <li className="">Lead management: Lead enhancement and distribution </li>
+          <li className="">Insurance</li>
+          <li className="">Human Resources</li>
+          <li className="">Marketing</li>
         </ul>
       </div>
     </div>
