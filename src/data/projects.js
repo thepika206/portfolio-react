@@ -22,6 +22,17 @@ const projectsData = [
     deploymentLink: "https://wifi-travelers-plane.netlify.app/",
   },
   {
+    title: "Pokemon Buddy",
+    description: "A companion app for playing the trading card game that tracks damage",
+    otherContributors: "Collaboration with @dibujobies",
+    technologies: "JavaScript, HTML, CSSReact.js",
+    takeaways: "Learning github for group work while pursuing a passion project",
+    image: "https://i.imgur.com/Wm4KzVo.png",
+    image2: "https://i.imgur.com/SvA04iL.png",
+    repositoryLink: "https://github.com/thepika206/pokemonbuddyapp",
+    deploymentLink: "https://pokemon-buddy.netlify.app/",
+  },
+  {
     title: "Portfolio",
     description: "Portfolio site",
     technologies: "React.js, Bootstrap",
