@@ -6,7 +6,7 @@ const ProjectDetailCard = ({project}) => {
         <h5>{project.description}</h5>
         <ul>
           <li className="fw-bold">Technologies: {project.technologies}</li>
-          <li>Lessons Learned: {project.takeaways}</li>
+          <li>Key takeaways: {project.takeaways}</li>
           {project.otherContributors?<li>{project.otherContributors}</li>: <></>}
           <li><a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub Project</a></li>
         </ul>
