@@ -40,11 +40,6 @@ const ProjectDetails = () => {
         <ProjectDetailCard project={project} />
   
         <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-          <button className="btn btn-dark m-3">
-          Launch Live App
-          </button>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
           <img src={project.image} alt={project.title} className="img-fluid"/>
         </a>
         <h5>Screen image from app</h5>
