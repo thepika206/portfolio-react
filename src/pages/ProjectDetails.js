@@ -8,26 +8,50 @@ const ProjectDetails = () => {
   let { projectId }  = useParams() 
   let project = findProject(projectId)
   
-  return (
-    <div className="p-3">
-      <a href="/projects">
-        <button className="btn btn-outline-dark mb-3 mt-3">Back to Projects</button>
-      </a>
-      <h1> {project.title} </h1>
+  if (project.image2) {
+    return (
+      <div className="p-3">
+        <a href="/projects">
+          <button className="btn btn-outline-dark mb-3 mt-3">Back to Projects</button>
+        </a>
+        <h1> {project.title} </h1>
+  
+        <ProjectDetailCard project={project} />
+  
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <img src={project.image} alt={project.title} className="img-fluid"/>
+        </a>
+        <h5>Screen image from app</h5>
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <img src={project.image2} alt={project.title} className="img-fluid"/>
+        </a>
+        <h5>Screen image from app</h5>
+      </div>
+    )
+  } else{
+    
+    return (
+      <div className="p-3">
+        <a href="/projects">
+          <button className="btn btn-outline-dark mb-3 mt-3">Back to Projects</button>
+        </a>
+        <h1> {project.title} </h1>
+  
+        <ProjectDetailCard project={project} />
+  
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <button className="btn btn-dark m-3">
+          Launch Live App
+          </button>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <img src={project.image} alt={project.title} className="img-fluid"/>
+        </a>
+        <h5>Screen image from app</h5>
+      </div>
+    )
+  }
 
-      <ProjectDetailCard project={project} />
-
-      <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-        <button className="btn btn-dark m-3">
-        Launch Live App
-        </button>
-      </a>
-      <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-        <img src={project.image} alt={project.title} className="img-fluid"/>
-      </a>
-      <h5>Screen image from app</h5>
-    </div>
-  )
 }
 
 export default ProjectDetails
