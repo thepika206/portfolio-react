@@ -32,6 +32,16 @@ const projectsData = [
     deploymentLink: "https://bass-and-amp-collector.herokuapp.com/",
   },
   {
+    title: "Star Wars Fan Page",
+    description: "Displays information from a Star Wars API",
+    technologies: "React.js, SWAPI (3rd Party API)",
+    takeaways: "Working with 3rd party APIs",
+    image: "https://i.imgur.com/nWg20wO.png",
+    image2: "",
+    repositoryLink: "https://github.com/thepika206/react-swapi-lab",
+    deploymentLink: "https://pcheung-sw-api.netlify.app/",
+  },
+  {
     title: "Pokemon Buddy",
     description: "A companion app for playing the trading card game that tracks damage",
     otherContributors: "Collaboration with @dibujobies",
