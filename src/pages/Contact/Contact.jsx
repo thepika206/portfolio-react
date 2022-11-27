@@ -28,7 +28,7 @@ function Contact(){
       <div className="card w-50 m-3">
         <div className="card-body">
           <h3 className="card-title">Personal Life</h3>
-          <p>Patrick is originally from Seattle Washington, and now lives in San Antonio Texas.  He enjoys creating useful items such as pocket-hole woodworking.</p> 
+          <p>Patrick Cheung is originally from Seattle, Washington, and now lives in San Antonio, Texas.</p> 
         </div>
       </div>
     </>
