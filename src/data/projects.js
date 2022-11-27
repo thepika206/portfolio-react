@@ -22,7 +22,7 @@ const projectsData = [
   },
   {
     title: "Bass Collector",
-    description: "Keep track of your collection of bass gear",
+    description: "App with Full CRUD functionality to collect bass gear",
     
     technologies: "Django, Python",
     takeaways: "Django app, using Class-Based-Views",
@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     title: "Star Wars Fan Page",
-    description: "Displays information from a Star Wars API",
+    description: "App that pulls down ship and people information from a Star Wars API",
     technologies: "React.js, SWAPI (3rd Party API)",
     takeaways: "React App, consumes 3rd party API",
     image: "https://i.imgur.com/QjTVYBx.png",
