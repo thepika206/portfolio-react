@@ -8,6 +8,7 @@ import Projects from './pages/Projects/Projects';
 import Resume from './pages/Resume/Resume';
 import NavBar from './components/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
+import { workExperienceData } from './data/workExperience';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/resume' element={<Resume />} />
+        <Route path='/resume' element={<Resume 
+          workExperience={workExperienceData}
+        />} />
         <Route path='/projects/:projectId' element={<ProjectDetails />} />
       </Routes>
         </main>
