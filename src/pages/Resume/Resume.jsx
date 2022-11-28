@@ -13,6 +13,7 @@ function Resume({workExperience}){
       <div className="row justify-content-center card-deck">
         {workExperience.map(experience => 
           <WorkExperienceCard 
+            key={experience.start}
             experience={experience}
           />
         )}
