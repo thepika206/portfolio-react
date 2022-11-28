@@ -1,9 +1,7 @@
 import { hyphenateWords } from "../utilities/hyphenateWords";
 
 const ProjectPreview = ({project}) => {
-  console.log(project.title)
   let projectUrl = ('/projects/' + hyphenateWords(project.title))
-  console.log(projectUrl)
   return (  
       <div className="card m-2 project-preview-card">
         <a href={projectUrl}>
