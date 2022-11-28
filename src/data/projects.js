@@ -3,7 +3,7 @@ const projectsData = [
     title: "Star Wars Fan Page",
     description: "App that pulls down ship and people information from a Star Wars API",
     technologies: "React.js, SWAPI (3rd Party API)",
-    takeaways: "Post graduation, I continued to expand the capabilities of React site to handle more data from the API",
+    takeaways: "Post graduation, I expanded this site hone my React and API skills",
     image: "https://i.imgur.com/QjTVYBx.png",
     image2: "https://i.imgur.com/nWg20wO.png",
     repositoryLink: "https://github.com/thepika206/react-swapi-lab",
@@ -13,7 +13,7 @@ const projectsData = [
     title: "Portfolio",
     description: "Portfolio site",
     technologies: "React.js, Bootstrap",
-    takeaways: "Post graduation, this site has provided me with ample opportunities to apply React",
+    takeaways: "Post graduation, I continued to expand this site to apply my React skills",
     image: "https://i.imgur.com/jSYCp3y.png",
     image2: "https://i.imgur.com/I2TctAL.png",
     repositoryLink: "https://github.com/thepika206/portfolio-react",
@@ -33,7 +33,6 @@ const projectsData = [
   {
     title: "Sales Tracker",
     description: "Client Relationship Management App",
-    
     technologies: "MongoDB/Mongoose, Express.js, EJS templates, BootStrap, Google OAuth",
     takeaways: "I modeled many features after CRMs that I've used in real life",
     image: "https://i.imgur.com/u3lBr6V.png",
@@ -43,9 +42,8 @@ const projectsData = [
   {
     title: "Bass Collector",
     description: "App with Full CRUD functionality to collect bass gear",
-    
     technologies: "Django, Python",
-    takeaways: "The Django framework allowed me to build this app in a very short amount of time",
+    takeaways: "I was able to learn Python and Django after JavaScript in very short amount of time.",
     image: "https://i.imgur.com/UHjDoj4.png",
     image2: "",
     repositoryLink: "https://github.com/thepika206/bass-collector",
@@ -54,7 +52,6 @@ const projectsData = [
   {
     title: "BlackJack",
     description: "An fun mobile friendly card game",
-    
     technologies: "JavaScript",
     takeaways: "Ask me about user feedback and the added functionality POST Graduation.",
     image: "https://i.imgur.com/3qzc0Tz.png",
