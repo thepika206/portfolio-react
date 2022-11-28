@@ -24,13 +24,14 @@ body,
 }
 
 #home-card{
+  height: 300px;
   width: 100%;
   max-width: 500px;
 }
 
 #home-image {
-  width: 80%;
-  max-width: 400px;
+  /* width: 40%; */
+  max-width: 450px;
 }
 
 
