@@ -21,10 +21,10 @@ const projectsData = [
   },
   {
     title: "Plan.e",
-    description: "A travel app that lets you plan a trip and share ideas for what to do",
+    description: "A MERN-Stack travel app to plan a vacation",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "React.js, JWT Auth",
-    takeaways: "Excited to speak about group project and my role as the git manager",
+    takeaways: "Excited to speak about the experience working in a group project",
     image: "https://i.imgur.com/lMq2ujy.png",
     image2: "https://i.imgur.com/TMy6WdR.png",
     repositoryLink: "https://github.com/thepika206/sales-tracker",
