@@ -16,8 +16,8 @@ function Home(){
         </div>
         <HomeCard/>  
       </div>
-      <a href="/about">
-          <button className="mb-3 btn btn-dark">Learn More</button>
+      <a href="/projects">
+          <button className="mb-3 btn btn-dark">View Projects</button>
       </a>
     </>
   )
