@@ -1,5 +1,5 @@
 import TechSkillsCard from "../../components/TechSkillsCard"
-import IndustryXpCard from "../../components/IndustryXpCard"
+// import IndustryXpCard from "../../components/IndustryXpCard"
 import ProfBioCard from "../../components/ProfBioCard"
 function About(){
   
