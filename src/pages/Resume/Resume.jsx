@@ -7,9 +7,14 @@ function Resume({workExperience}){
       <h1>
         Resume
       </h1>
-      <a href="/resume/Resume-Patrick-Cheung.pdf" download>
-        <button className="btn btn-dark">Download Resume</button>
-      </a>
+      <span>
+        <a href="/resume/Resume-Patrick-Cheung.pdf" download>
+          <button className="btn btn-outline-dark">Download PDF</button>
+        </a>
+        <a href="/contact">
+          <button className="btn btn-dark m-3">Contact Info</button>
+        </a>
+      </span>
       <div className="row justify-content-center card-deck">
         {workExperience.map(experience => 
           <WorkExperienceCard 

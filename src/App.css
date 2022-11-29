@@ -19,9 +19,6 @@ body,
   /* max-width : 500px; */
 }
 
-.card {
-  /* max-width: 400px; */
-}
 
 .card-image {
   max-width: 400px
@@ -76,4 +73,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   max-width: 500px;
   border-radius: 15px;
   padding: 10px;
+}
+
+.contact-card{
+  width: 100%;
+  max-width: 600px;
 }

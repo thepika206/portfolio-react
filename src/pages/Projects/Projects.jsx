@@ -6,12 +6,11 @@ function Projects(){
     <>
       <h1>Projects</h1>
       <span>
-
-      <a href="/about">
+      {/* <a href="/about">
         <button className="btn btn-outline-dark m-3">Back to About</button>
-      </a>
-      <a href="/contact">
-        <button className="btn btn-dark m-3">Lets Connect</button>
+      </a> */}
+      <a href="/resume">
+        <button className="btn btn-dark m-3">View Resume</button>
       </a>
       </span>
       <div className="">

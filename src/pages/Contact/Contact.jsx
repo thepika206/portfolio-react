@@ -2,10 +2,10 @@ function Contact(){
   return (  
     <>
       <h1>Contact</h1>
-      <a href="/about">
+      {/* <a href="/about">
         <button className="btn btn-outline-dark">Back to About</button>
-      </a>
-      <div className="card w-50 m-3">
+      </a> */}
+      <div className="card m-3 contact-card">
         <div className="card-body">
           <h3 className="card-title">Information</h3>
           <ul>
@@ -25,7 +25,7 @@ function Contact(){
             <img src="https://www.codewars.com/users/thepika206/badges/small" alt="codewars badge" />
         </div>
       </div>      
-      <div className="card w-50 m-3">
+      <div className="card m-3 contact-card">
         <div className="card-body">
           <h3 className="card-title">Personal Life</h3>
           <p>Patrick Cheung is originally from Seattle, Washington, and now lives in San Antonio, Texas.</p> 

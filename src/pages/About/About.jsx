@@ -6,6 +6,9 @@ function About(){
   return (  
     <>
       <h1>About</h1>
+      <a href="/projects">
+        <button className="btn btn-dark">View Projects</button>
+      </a>
       <div id='main-content-container' className="container">
         <div className="row">
           <div className="col"><TechSkillsCard/></div>
