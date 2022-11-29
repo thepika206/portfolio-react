@@ -23,22 +23,6 @@ body,
   /* max-width: 400px; */
 }
 
-#home-card{
-  height: 300px;
-  width: 390px;
-  margin:5px;
-  /* max-width: 500px; */
-}
-
-#home-image {
-  height: 300px;
-  width: 390px;
-  margin:5px;
-  /* max-width: 450px; */
-}
-
-
-
 .card-image {
   max-width: 400px
 }
