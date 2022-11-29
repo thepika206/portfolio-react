@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar />
-        <main className='d-flex flex-column justify-content-center align-items-center'>
+        <main className='d-flex flex-column  align-items-center'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
