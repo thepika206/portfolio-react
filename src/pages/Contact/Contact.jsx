@@ -2,9 +2,6 @@ function Contact(){
   return (  
     <>
       <h1>Contact</h1>
-      {/* <a href="/about">
-        <button className="btn btn-outline-dark">Back to About</button>
-      </a> */}
       <div className="card m-3 contact-card">
         <div className="card-body">
           <h3 className="card-title">Information</h3>
