@@ -1,20 +1,22 @@
 import HomeCard from "../../components/HomeCard"
 import './home.css'
+import TechSkillsCard from "../../components/TechSkillsCard"
 
 function Home(){
   return (  
     <>
       <h1 id='home-title'>
-        Patrick Cheung
+      👋👋👋 I'm Patrick Cheung 👋👋👋
       </h1>
-      {/* <h2>Software Developer</h2> */}
+  
       
       <div id="home-container">
-        <div id='home-image-container'>
-          <img id="home-image" className="mb-3" src="https://i.imgur.com/hcGYNrO.jpg" title="source: imgur.com" alt="headshot of Patrick Cheung" />
-          {/* <h4>An Engineer with Product Experience</h4> */}
+        <div className="card home-card" id='home-image-container'>
+          <img id="home-image" className="" src="https://i.imgur.com/hcGYNrO.jpg" title="source: imgur.com" alt="headshot of Patrick Cheung" />
         </div>
-        <HomeCard/>  
+        <HomeCard/>
+        <TechSkillsCard/>
+          
       </div>
       <a href="/projects">
           <button className="mb-3 btn btn-dark">View Projects</button>

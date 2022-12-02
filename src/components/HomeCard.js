@@ -1,14 +1,10 @@
 const HomeCard = () => {
   return (  
-    <div className="card p-2" id="home-card">
+    <div className="card p-2 home-card" id="home-card">
       <div className="card-body">
-
-        <h5>Software Engineer</h5>
-        <ul>
-          <li>React | Javascript | Python</li>
-          <li>RESTful APIs | Node.js | Express</li>
-          <li>Agile Product Owner experience</li>
-        </ul>
+        <h4>
+          I am a full stack developer with a product owner background.  I collaborate with clients and stakeholders to build consensus to solve business solutions using modern technology.
+        </h4>
       </div>
     </div>
   );
