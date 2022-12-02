@@ -30,6 +30,15 @@ const projectsData = [
     deploymentLink: "https://sales-tracker-pcheung.fly.dev/",
   },
   {
+    title: "BlackJack",
+    description: "An fun mobile friendly card game with bettings and double down actions",
+    technologies: "JavaScript",
+    takeaways: "Ask me about user feedback and the added functionality POST Graduation.",
+    image: "https://i.imgur.com/6NdPnws.png",
+    repositoryLink: "https://github.com/thepika206/play-blackjack",
+    deploymentLink: "https://thepika206-play-blackjack.netlify.app/",
+  },
+  {
     title: "Bass Collector",
     description: "App with Full CRUD functionality to collect bass gear",
     technologies: "Django, Python",
@@ -48,15 +57,6 @@ const projectsData = [
     image2: "https://i.imgur.com/nWg20wO.png",
     repositoryLink: "https://github.com/thepika206/react-swapi-lab",
     deploymentLink: "https://pcheung-sw-api.netlify.app/",
-  },
-  {
-    title: "BlackJack",
-    description: "An fun mobile friendly card game with bettings and double down actions",
-    technologies: "JavaScript",
-    takeaways: "Ask me about user feedback and the added functionality POST Graduation.",
-    image: "https://i.imgur.com/3qzc0Tz.png",
-    repositoryLink: "https://github.com/thepika206/play-blackjack",
-    deploymentLink: "https://thepika206-play-blackjack.netlify.app/",
   },
   {
     title: "Pokemon Buddy",
