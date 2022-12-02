@@ -5,6 +5,11 @@ const techSkillsData = [
     image: "",
   },
   {
+    title: "React.js",
+    type: "language",
+    image: "",
+  },
+  {
     title: "Python3",
     type: "language",
     image: "",
@@ -15,13 +20,13 @@ const techSkillsData = [
     image: "",
   },
   {
-    title: "Node.js",
-    type: "runtime environment",
+    title: "Django",
+    type: "application-framework",
     image: "",
   },
   {
-    title: "Django",
-    type: "application-framework",
+    title: "Node.js",
+    type: "runtime environment",
     image: "",
   },
   {
