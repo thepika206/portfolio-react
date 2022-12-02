@@ -50,7 +50,7 @@ const projectsData = [
   },
   {
     title: "Star Wars Fan Page",
-    description: "App consumes data from a public Star Wars API (as of Dec 2, the api was unavailable and disrupts this site)",
+    description: "App consumes data from a public Star Wars API",
     technologies: "React.js, SWAPI (3rd Party API)",
     takeaways: "Post graduation, I expanded this site hone my React and API skills",
     image: "https://i.imgur.com/QjTVYBx.png",
