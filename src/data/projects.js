@@ -1,15 +1,5 @@
 const projectsData = [
   {
-    title: "Star Wars Fan Page",
-    description: "App that pulls down ship and people information from a Star Wars API",
-    technologies: "React.js, SWAPI (3rd Party API)",
-    takeaways: "Post graduation, I expanded this site hone my React and API skills",
-    image: "https://i.imgur.com/QjTVYBx.png",
-    image2: "https://i.imgur.com/nWg20wO.png",
-    repositoryLink: "https://github.com/thepika206/react-swapi-lab",
-    deploymentLink: "https://pcheung-sw-api.netlify.app/",
-  },
-  {
     title: "Portfolio",
     description: "Portfolio site",
     technologies: "React.js, Bootstrap",
@@ -50,8 +40,18 @@ const projectsData = [
     deploymentLink: "https://bass-and-amp-collector.herokuapp.com/",
   },
   {
+    title: "Star Wars Fan Page",
+    description: "App consumes data from a public Star Wars API",
+    technologies: "React.js, SWAPI (3rd Party API)",
+    takeaways: "Post graduation, I expanded this site hone my React and API skills",
+    image: "https://i.imgur.com/QjTVYBx.png",
+    image2: "https://i.imgur.com/nWg20wO.png",
+    repositoryLink: "https://github.com/thepika206/react-swapi-lab",
+    deploymentLink: "https://pcheung-sw-api.netlify.app/",
+  },
+  {
     title: "BlackJack",
-    description: "An fun mobile friendly card game",
+    description: "An fun mobile friendly card game with bettings and double down actions",
     technologies: "JavaScript",
     takeaways: "Ask me about user feedback and the added functionality POST Graduation.",
     image: "https://i.imgur.com/3qzc0Tz.png",
