@@ -6,7 +6,7 @@ function Home(){
   return (  
     <>
       <h1 id='home-title'>
-      👋👋👋 I'm Patrick Cheung 👋👋👋
+      👋👋👋 I'm Patrick Cheung
       </h1>
       <a href="/projects">
           <button className="mb-3 btn btn-dark">View Projects</button>

@@ -1,5 +1,14 @@
 const workExperienceData = [
   {
+    title:'Software Engineering Student',
+    company:'General Assembly',
+    location:'Remote',
+    URL:'https://generalassemb.ly',
+    start:'August 2022',
+    end:'November 2022',
+    achievements:'Completed 450+ hour professional training over live zoom and slack providing me with hands-on knowledge of multiple web languages, application frameworks, and databases.',
+  },
+  {
     title:'Product Owner',
     company:'Novidea',
     location:'Israel - Remote',
