@@ -10,11 +10,14 @@ const ProjectDetailCard = ({project}) => {
           {project.otherContributors?<li>{project.otherContributors}</li>: <></>}
           <li><a target="_blank" rel="noopener noreferrer" href={project.repositoryLink}>GitHub Project</a></li>
         </ul>
-        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-          <button className="btn btn-dark m-3">
-          Launch Live App
-          </button>
-        </a>
+        {project.deploymentLink
+          ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+              <button className="btn btn-dark m-3">
+              Launch Live App
+              </button>
+            </a>
+          :<></>
+        }
         </div>
       </div>
     </>
