@@ -6,7 +6,7 @@ const workExperienceData = [
     URL:'https://generalassemb.ly',
     start:'August 2022',
     end:'November 2022',
-    achievements:'Completed 450+ hour professional training over live zoom and slack providing me with hands-on knowledge of multiple web languages, application frameworks, and databases.',
+    achievements:'Completed 450+ hour professional training over live online instructors to acquire hands-on knowledge of multiple web languages, application frameworks, and databases.  Improved self-organization, research techniques and problem solving',
   },
   {
     title:'Product Owner',
