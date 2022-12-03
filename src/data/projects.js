@@ -14,7 +14,7 @@ const projectsData = [
     title: "Sales Tracker",
     description: "Client Relationship Management App",
     technologies: "MongoDB/Mongoose, Express.js, EJS templates, BootStrap, Google OAuth",
-    takeaways: "I created reusable views to provide some easy canned reports, I'm also proud of the comment feature on the customer file similar to the chatter section in SF",
+    takeaways: "I created some canned reports, and comment feature on the lead that looks cool",
     image: "https://i.imgur.com/bQBIRmQ.png",
     image2: "https://i.imgur.com/pn3voF7.png",
     repositoryLink: "https://github.com/thepika206/plane-front-end",
