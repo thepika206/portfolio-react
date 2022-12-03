@@ -12,7 +12,7 @@ const ProjectDetailCard = ({project}) => {
         </ul>
         {project.deploymentLink
           ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-              <button className="btn btn-dark m-3">
+              <button className="btn btn-lg btn-dark m-3">
               Launch Live App
               </button>
             </a>
