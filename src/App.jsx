@@ -6,7 +6,7 @@ import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import Resume from './pages/Resume/Resume';
 import NavBar from './components/NavBar';
-import ProjectDetails from './pages/ProjectDetails';
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 import { workExperienceData } from './data/workExperience';
 
 function App() {
