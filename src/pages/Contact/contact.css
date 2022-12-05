@@ -1,0 +1,13 @@
+.icon{
+  width: 50px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 30px;
+}
