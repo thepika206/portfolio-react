@@ -3,11 +3,14 @@
   margin-right: 10px;
 }
 
-ul {
+
+
+#contact-info-card ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-li {
-  margin-bottom: 30px;
+#contact-info-card li {
+  margin-top: 40px;
 }
+
