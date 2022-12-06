@@ -4,10 +4,10 @@ const projectsData = [
     description: "A MERN-Stack travel app to plan a vacation",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "React.js, JWT Auth",
-    takeaways: "I learned how to develop as a group and keep everyone on the same page",
+    takeaways: "I'm really proud of the junction resource I created for the data model for Activity Plans so that shared Activities could be scheduled within a personal Trip.  This was one of the more complex ideas to communicate in the team.",
     image: "https://i.imgur.com/lMq2ujy.png",
-    image2: "https://i.imgur.com/TMy6WdR.png",
-    repositoryLink: "https://github.com/thepika206/sales-tracker",
+    image2: "https://i.imgur.com/Lso2Ani.png",
+    repositoryLink: "https://github.com/thepika206/plane-front-end",
     deploymentLink: "https://wifi-travelers-plane.netlify.app/",
   },
   {
@@ -17,7 +17,7 @@ const projectsData = [
     takeaways: "I created some canned reports, and comment feature on the lead that looks cool",
     image: "https://i.imgur.com/bQBIRmQ.png",
     image2: "https://i.imgur.com/pn3voF7.png",
-    repositoryLink: "https://github.com/thepika206/plane-front-end",
+    repositoryLink: "https://github.com/thepika206/sales-tracker",
     deploymentLink: "https://sales-tracker-pcheung.fly.dev/",
   },
   {
