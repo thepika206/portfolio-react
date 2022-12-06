@@ -4,7 +4,7 @@ const projectsData = [
     description: "A MERN-Stack travel app to plan a vacation",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "React.js, JWT Auth",
-    takeaways: "I'm really proud of the junction resource I created for the data model for Activity Plans so that shared Activities could be scheduled within a personal Trip.  This was one of the more complex ideas to communicate in the team.",
+    takeaways: "I'm really proud of how I modeled the relationships between shared Activities and Personal Trips using an Activity Plan resource between them.  The idea for a 'junction object' was something I learned from having worked with SalesForce data schemas.",
     image: "https://i.imgur.com/lMq2ujy.png",
     image2: "https://i.imgur.com/Lso2Ani.png",
     repositoryLink: "https://github.com/thepika206/plane-front-end",
