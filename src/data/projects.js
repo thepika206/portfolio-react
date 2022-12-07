@@ -40,6 +40,16 @@ const projectsData = [
     // deploymentLink: "https://patrick-cheung-portfolio.netlify.app/",
   },
   {
+    title: "Reactville",
+    description: "Shopping App built in React",
+    technologies: "React.js",
+    takeaways: "This was a class assignment to apply React skills such a shopping cart behavior and checkout",
+    image: "https://i.imgur.com/8xSOruD.png",
+    image2: "",
+    repositoryLink: "https://github.com/thepika206/reactville",
+    deploymentLink: "https://reactville-pcheung.netlify.app/",
+  },
+  {
     title: "Star Wars Fan Page",
     description: "App consumes data from a public Star Wars API",
     otherContributors: "Initially a group-assignment with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
