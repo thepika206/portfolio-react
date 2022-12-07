@@ -1,4 +1,4 @@
-import { techSkillsData } from "../data/techSkills";
+// import { techSkillsData } from "../data/techSkills";
 import CSSSVG from "./SVG/CSSSVG";
 import DjangoSVG from "./SVG/DjangoSVG";
 import ExpressSVG from "./SVG/ExpressSVG";

@@ -15,8 +15,8 @@ function Home(){
         <div className="card home-card" id='home-image-container'>
           <img id="home-image" className="" src="https://i.imgur.com/hcGYNrO.jpg" title="source: imgur.com" alt="headshot of Patrick Cheung" />
         </div>
-        <HomeCard/>
         <TechSkillsCard/>
+        <HomeCard/>
           
       </div>
       <a href="/projects">
