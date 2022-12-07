@@ -13,7 +13,7 @@ import PythonSVG from "./SVG/PythonSVG";
 import ReactSVG from "./SVG/ReactSVG";
 const TechSkillsCard = () => {
   return (  
-    <div className="card home-card" >
+    <div className="card home-card p-3 m-5" >
       <div className="card-body">
         <h3 className="card-title">Technologies</h3>
         <JavaScriptSVG/>
