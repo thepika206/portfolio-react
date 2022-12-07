@@ -1,15 +1,44 @@
 import { techSkillsData } from "../data/techSkills";
+import CSSSVG from "./SVG/CSSSVG";
+import DjangoSVG from "./SVG/DjangoSVG";
+import ExpressSVG from "./SVG/ExpressSVG";
+import GithubSVG from "./SVG/GithubSVG";
+import HTML5 from "./SVG/HTMLSVG";
+import JavaScriptSVG from "./SVG/JavaScriptSVG";
+import MongoSVG from "./SVG/MongoSVG";
+import NodeSVG from "./SVG/NodeSVG";
+import PostgresSVG from "./SVG/PostgresSVG";
+import PostmanSVG from "./SVG/PostmanSVG";
+import PythonSVG from "./SVG/PythonSVG";
+import ReactSVG from "./SVG/ReactSVG";
 const TechSkillsCard = () => {
   return (  
     <div className="card home-card" >
       <div className="card-body">
         <h3 className="card-title">Technologies</h3>
-        <ul>{techSkillsData.map(skill =>
+        <JavaScriptSVG/>
+        <HTML5/>
+        <CSSSVG/>
+        <ReactSVG/>
+        <PythonSVG/>
+        <ExpressSVG/>
+        <DjangoSVG/>
+        <NodeSVG/>
+        <MongoSVG/>
+        <PostgresSVG/>
+        <PostmanSVG/>
+        <GithubSVG/>
+        {/* <ul>{techSkillsData.map(skill =>
             <li className="fs-5" key={skill.title}>{skill.title}</li>
           )}
-        </ul>
+        </ul> */}
+      </div>
+      <div className="card-footer text-muted">
+        <a href="https://icons8.com/license">used with permission from icons8.com</a>
       </div>
     </div>
   )
 }
 export default TechSkillsCard;
+
+//https://icons8.com/license

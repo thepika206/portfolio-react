@@ -5,8 +5,18 @@ const techSkillsData = [
     image: "",
   },
   {
-    title: "React.js",
+    title: "HTML5",
     type: "language",
+    image: "",
+  },
+  {
+    title: "CSS",
+    type: "language",
+    image: "",
+  },
+  {
+    title: "React.js",
+    type: "frontend-framework",
     image: "",
   },
   {
@@ -37,16 +47,6 @@ const techSkillsData = [
   {
     title: "PostgreSQL",
     image: "SQL database",
-  },
-  {
-    title: "HTML5",
-    type: "language",
-    image: "",
-  },
-  {
-    title: "CSS",
-    type: "language",
-    image: "",
   },
   {
     title: "PostMan",
