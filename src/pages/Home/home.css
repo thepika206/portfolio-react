@@ -1,17 +1,17 @@
-#home-container{
+#home-title, #home-container{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .home-card{
-  width: 70%;
+  width: 80%;
   margin:5px;
 }
 
 #home-image-container{
-  width: 70%;
-  background-color: white;
+  width: 50%;
+  /* background-color: black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,17 +21,18 @@
 
 #home-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
+  border-radius: 50%;
 }
 
-/* @media only screen and (min-width: 1000px) {
-  #home-container{
+@media only screen and (min-width: 1000px) {
+  /* #home-container{
     flex-direction: row;
   }
   #home-image-container{
     max-width: 300px;
-  }
+  } */
   #home-card{
-    height: auto;
+    max-width: 800px;
   }
-} */
+}
