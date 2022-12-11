@@ -21,6 +21,16 @@ const projectsData = [
     deploymentLink: "https://sales-tracker-pcheung.fly.dev/",
   },
   {
+    title: "Tic Tac TypeScript",
+    description: "A tic tac toe game in TypeScript",
+    technologies: "TypeScript, Snowpack",
+    takeaways: "Post graduation, I started learning TypeScript and refactored an earlier game of mine",
+    image: "https://i.imgur.com/KTVHCoi.png",
+    image2: "",
+    repositoryLink: "https://github.com/thepika206/ttt-ts",
+    deploymentLink: "https://tic-tac-typescript.netlify.app",
+  },
+  {
     title: "BlackJack",
     description: "An fun mobile friendly card game with bettings and double down actions",
     technologies: "JavaScript",
