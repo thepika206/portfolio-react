@@ -91,16 +91,16 @@ const projectsData = [
     repositoryLink: "https://github.com/thepika206/bass-collector",
     // deploymentLink: "https://bass-and-amp-collector.herokuapp.com/",
   },
-  // {
-  //   title: "Tic Tac Toe",
-  //   description: "An web game created early in the bootcamp",
+  {
+    title: "Tic Tac Toe",
+    description: "An web game created early in the bootcamp",
     
-  //   technologies: "JavaScript",
-  //   takeaways: "game variables, dom elements, event handling, game functions",
-  //   image: "https://i.imgur.com/ZV4mjRb.png",
-  //   repositoryLink: "https://github.com/thepika206/ttt-weekend",
-  //   deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
-  // },
+    technologies: "JavaScript",
+    takeaways: "game variables, dom elements, event handling, game functions",
+    image: "https://i.imgur.com/ZV4mjRb.png",
+    repositoryLink: "https://github.com/thepika206/ttt-weekend",
+    deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
+  },
   // {
   //   title: "Rock Paper Scissor",
   //   description: "An web game",
