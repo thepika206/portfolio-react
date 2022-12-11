@@ -17,12 +17,12 @@ function Contact(props){
               </li>
             <li>
               <a href="https://www.linkedin.com/in/patrick-cheung206/">
-                <img className="icon" src="images/icons/LI-In-Bug.png" alt="LinkedIn" />
+                <img className="icon" src="images/icons/LI-In-Bug.png" alt="LinkedIn" />in/patrick-cheung206/
               </a>
             </li>
             <li>
               <a href="https://github.com/thepika206">
-                <img className="icon" src="images/icons/github-mark.png" alt="GitHub" />
+                <img className="icon" src="images/icons/github-mark.png" alt="GitHub" />thepika206
               </a>
             </li>
             <li>

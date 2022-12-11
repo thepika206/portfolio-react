@@ -25,6 +25,11 @@ const techSkillsData = [
     image: "",
   },
   {
+    title: "TypeScript",
+    type: "language",
+    image: "",
+  },
+  {
     title: "Express.js",
     type: "application-framework",
     image: "",

@@ -11,15 +11,17 @@ import PostgresSVG from "./SVG/PostgresSVG";
 import PostmanSVG from "./SVG/PostmanSVG";
 import PythonSVG from "./SVG/PythonSVG";
 import ReactSVG from "./SVG/ReactSVG";
+import TypeScriptSVG from "./SVG/TypeScriptSVG";
 const TechSkillsCard = () => {
   return (  
     <div className="card home-card p-3 m-5" >
       <div className="card-body">
         <h3 className="card-title">Technologies</h3>
         <JavaScriptSVG/>
+        <ReactSVG/>
+        <TypeScriptSVG/>
         <HTML5/>
         <CSSSVG/>
-        <ReactSVG/>
         <PythonSVG/>
         <ExpressSVG/>
         <DjangoSVG/>
