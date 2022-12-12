@@ -66,11 +66,12 @@ main{
 .experience-card {
   margin: 10px;
   background-color: white;
-  /* border: 1px solid black; */
+  border: 1px solid lightgrey;
   width: 90%;
-  max-width: 500px;
+  max-width: 800px;
   border-radius: 15px;
   padding: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-card{
