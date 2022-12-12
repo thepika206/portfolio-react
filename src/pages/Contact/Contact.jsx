@@ -5,7 +5,7 @@ function Contact(props){
   return (  
     <>
       <h1>Contact</h1>
-      <div id="contact-info-card" className="card p-4 m-5 contact-card">
+      <div id="contact-info-card" className="card p-4 m-5 contact-card shadow">
         <div className="card-body">
           <h3 className="card-title">Connect with Me</h3>
           <ul>
@@ -32,7 +32,7 @@ function Contact(props){
           </ul>
         </div>
       </div>      
-      <div className="card p-4 m-5 contact-card">
+      <div className="card p-4 m-5 contact-card shadow">
         <div className="card-body">
           <h3 className="card-title">Personal Life</h3>
           <p>I live in San Antonio, Texas and enjoy spending time with my family, woodworking and playing music.</p> 

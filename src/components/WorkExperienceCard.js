@@ -1,6 +1,6 @@
 const WorkExperienceCard = ({experience}) => {
   return (  
-    <article className="experience-card">
+    <article className="experience-card shadow">
       <h3>{experience.title}-{experience.company}</h3>
       <h5>{experience.start} to {experience.end}</h5>
       <h5>Achievements: {experience.achievements}</h5>

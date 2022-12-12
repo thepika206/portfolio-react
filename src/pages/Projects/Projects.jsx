@@ -7,7 +7,7 @@ function Projects(){
       <h1>Projects</h1>
       <span>
       <a href="/resume">
-        <button className="btn btn-dark m-3">View Resume</button>
+        <button className="btn btn-dark m-3 shadow">View Resume</button>
       </a>
       </span>
       <div className="">

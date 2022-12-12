@@ -1,7 +1,7 @@
 const ProjectDetailCard = ({project}) => {
   return (  
     <>
-      <div className="card mb-2">
+      <div className="card mb-2 shadow">
         <div className="card-body">
         <h5>{project.description}</h5>
         <ul>
@@ -12,7 +12,7 @@ const ProjectDetailCard = ({project}) => {
         </ul>
         {project.deploymentLink
           ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-              <button className="btn btn-lg btn-dark m-3">
+              <button className="btn btn-lg btn-dark m-3 shadow">
               Launch Live App
               </button>
             </a>

@@ -9,10 +9,10 @@ function Resume({workExperience}){
       </h1>
       <span>
         <a href="/resume/Resume-Patrick-Cheung.pdf" download>
-          <button className="btn btn-outline-dark">Download PDF</button>
+          <button className="btn btn-outline-dark shadow">Download PDF</button>
         </a>
         <a href="/contact">
-          <button className="btn btn-dark m-3">Contact Info</button>
+          <button className="btn btn-dark m-3 shadow">Contact Info</button>
         </a>
       </span>
       <div className="row justify-content-center card-deck">
