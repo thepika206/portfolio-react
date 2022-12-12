@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: "Plan.e",
-    description: "A MERN-Stack travel app to plan a vacation",
+    description: "A MERN-Stack travel app to plan a vacation (React)",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "React.js, JWT Auth",
     takeaways: "I'm really proud of the entity-relationship planning and group coordination in this project",
