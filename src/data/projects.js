@@ -101,16 +101,16 @@ const projectsData = [
     repositoryLink: "https://github.com/thepika206/ttt-weekend",
     deploymentLink: "https://thepika206-tic-tac-toe.netlify.app/",
   },
-  // {
-  //   title: "Rock Paper Scissor",
-  //   description: "An web game",
+  {
+    title: "Rock Paper Scissor",
+    description: "An web game",
     
-  //   technologies: "JavaScript",
-  //   takeaways: "I created this app prior to the bootcamp... If I can make this, what will I create next?",
-  //   image: "https://i.imgur.com/7KgxH6T.png",
-  //   repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
-  //   deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
-  // },
+    technologies: "JavaScript",
+    takeaways: "I enjoyed making collapable and game achievements",
+    image: "https://i.imgur.com/ow7ZxMT.png",
+    repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
+    deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
+  },
 ]
 
 export {
