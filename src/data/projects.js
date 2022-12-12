@@ -4,7 +4,7 @@ const projectsData = [
     description: "A MERN-Stack travel app to plan a vacation",
     otherContributors: "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
     technologies: "React.js, JWT Auth",
-    takeaways: "I'm really proud of how I modeled the relationships between shared Activities and Personal Trips using an Activity Plan resource between them.  The idea for a 'junction object' was something I learned from having worked with SalesForce data schemas.",
+    takeaways: "I'm really proud of the entity-relationship planning and group coordination in this project",
     image: "https://i.imgur.com/lMq2ujy.png",
     image2: "https://i.imgur.com/Lso2Ani.png",
     repositoryLink: "https://github.com/thepika206/plane-front-end",
@@ -106,7 +106,7 @@ const projectsData = [
     description: "An web game",
     
     technologies: "JavaScript",
-    takeaways: "I enjoyed making collapable and game achievements",
+    takeaways: "I enjoyed making collapable cards and game achievements",
     image: "https://i.imgur.com/ow7ZxMT.png",
     repositoryLink: "https://github.com/thepika206/rock-paper-scissor",
     deploymentLink: "https://thepika206-rock-paper-scissors.netlify.app/",
