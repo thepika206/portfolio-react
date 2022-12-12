@@ -1,9 +1,10 @@
 const HomeCard = () => {
   return (  
-    <div className="card p-3 m-5 home-card shadow" id="home-card">
+    <div className="card p-3 home-card shadow" id="home-card">
       <div className="card-body">
+        <h1 id='home-title'>👋 I'm Patrick</h1>
         <h4>
-          I am a full stack developer with a product owner background.  I solve business challenges using modern technology and teamwork across the organization.
+          I'm a full stack developer with a product owner background.  I solve business challenges with modern technology and practical team collaboration.
         </h4>
       </div>
     </div>
