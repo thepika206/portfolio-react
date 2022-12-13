@@ -11,9 +11,6 @@ function Resume({workExperience}){
         <a href="/resume/Resume-Patrick-Cheung.pdf" download>
           <button className="btn btn-outline-dark shadow">Download PDF</button>
         </a>
-        <a href="/contact">
-          <button className="btn btn-dark m-3 shadow">Contact Info</button>
-        </a>
       </span>
       <div className="column justify-content-center card-deck">
         {workExperience.map(experience => 
@@ -22,7 +19,10 @@ function Resume({workExperience}){
             experience={experience}
           />
         )}
-    </div>
+      </div>
+      <a href="/contact">
+        <button className="btn btn-lg btn-dark m-3 shadow">Contact Info</button>
+      </a>
     </>
   )
 }
