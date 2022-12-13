@@ -56,6 +56,12 @@ nav a {
   justify-content: center;
 }
 
+.flex-row-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .italic-text{
   font-style:italic;
