@@ -10,10 +10,9 @@ const ProjectDetails = () => {
   
   return (
     <div className="p-3">
-      <a href="/projects">
-        <button className="btn btn-outline-dark mb-3 mt-3 shadow">Back to Projects</button>
-      </a>
-      <h1> {project.title} </h1>
+      <div className="column-centered-content">
+        <h1> {project.title} </h1>
+      </div>
 
       <ProjectDetailCard project={project} />
 
@@ -30,6 +29,11 @@ const ProjectDetails = () => {
           </>
         : <></>
       }
+      <div className="column-centered-content">
+        <a href="/projects">
+          <button className="btn btn-lg btn-outline-dark mb-3 mt-3 shadow">Back to Projects</button>
+        </a>
+      </div>
     </div>
   )
 }

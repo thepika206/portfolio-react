@@ -13,10 +13,10 @@ function Home(){
         <div id="home-title" className="m-3">
           {/* <h3>Patrick Cheung - Full Stack Developer</h3> */}
         </div>
-        <a href="/projects">
-          <button className="mb-3 btn btn-dark shadow">View Projects</button>
-        </a>
         <TechSkillsCard/>
+        <a href="/projects">
+          <button className="mb-3 btn btn-lg btn-dark shadow">View Projects</button>
+        </a>
       </div>
       {/* <a href="/projects">
           <button className="mb-3 btn btn-dark shadow">View Projects</button>

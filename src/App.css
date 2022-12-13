@@ -50,7 +50,11 @@ nav a {
   color: white
 }
 
-
+.column-centered-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 .italic-text{
@@ -81,6 +85,12 @@ main{
 
 .shadow{
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.btn-dark:hover{
+  color:#212529;
+  background-color: lightgrey;
+  border: 1px solid #212529;
 }
 
 @media only screen and (min-width: 950px) {
