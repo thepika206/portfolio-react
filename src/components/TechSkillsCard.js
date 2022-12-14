@@ -9,9 +9,6 @@ const TechSkillsCard = () => {
           )}
         </div>
       </div>
-      <div className="card-footer text-muted">
-        <a href="https://icons8.com/license">used with permission from icons8.com</a>
-      </div>
     </div>
   )
 }
