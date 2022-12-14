@@ -2,20 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .home-card{
   width: 80%;
-  margin:5px;
+  margin-bottom: 50px;
 }
 
-#home-image-container{
+.home-image-container{
   width: 50%;
   /* background-color: black; */
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  margin-bottom: 50px;
   
 }
 

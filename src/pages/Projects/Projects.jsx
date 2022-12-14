@@ -5,9 +5,7 @@ function Projects(){
   return (  
     <>
       <h1>Projects</h1>
-      <div className="">
-        <ProjectList projects={projectsData} />
-      </div>
+      <ProjectList projects={projectsData} />
       <span>
       <a href="/resume">
         <button className="btn btn-lg btn-dark m-3 shadow">View Resume</button>
