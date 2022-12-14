@@ -15,17 +15,20 @@ const ProjectDetails = () => {
       </div>
 
       <ProjectDetailCard project={project} />
-
-      <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-        <img src={project.image} alt={project.title} className="img-fluid shadow"/>
-      </a>
-      <h5>Screen image from app</h5>
+      <div className="m-5">
+        <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+          <img src={project.image} alt={project.title} className="img-fluid shadow"/>
+        </a>
+        <h5>Screen image from app</h5>
+      </div>
       {project.image2 
         ? <>
-            <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-              <img src={project.image2} alt={project.title} className="img-fluid shadow"/> 
-            </a>
-            <h5>Screen image from app</h5>
+            <div className="m-5">
+              <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+                <img src={project.image2} alt={project.title} className="img-fluid shadow"/> 
+              </a>
+              <h5>Screen image from app</h5>
+            </div>
           </>
         : <></>
       }

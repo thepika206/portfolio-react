@@ -1,7 +1,7 @@
 const ProjectDetailCard = ({project}) => {
   return (  
     <>
-      <div className="card mb-2 shadow">
+      <div className="card mb-2 m-5 shadow">
         <div className="card-body">
         <h5>{project.description}</h5>
         <ul>

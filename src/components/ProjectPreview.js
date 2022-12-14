@@ -9,16 +9,17 @@ const ProjectPreview = ({project}) => {
         </a>
         <div className="card-body">
           <h3>{project.title}</h3>
-          <p className="fw-bold">Key Takeaways: {project.takeaways}</p>
-          <p>Description: {project.description}</p>
+          <p>
+            <span className="fw-bold">Key Technologies:</span>{project.technologies}
+          </p>
           {project.deploymentLink
-          ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-              <button className="btn btn-dark m-3 shadow">
-              Launch Live App
-              </button>
-            </a>
-          :<></>
-        }
+            ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+                <button className="btn btn-dark m-3 shadow">
+                Launch Live App
+                </button>
+              </a>
+            :<></>
+          }
           <a href={'/projects/' + hyphenateWords(project.title)}>
             <button className="btn btn-outline-dark m-3 shadow"> Learn More </button>
           </a>
