@@ -1,9 +1,13 @@
 
 import { Link } from "react-router-dom";
 
+const navStyle = {
+  backgroundColor:'#46518B'
+}
+
 function NavBar(){
   return (  
-    <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav style={navStyle} className="fixed-top navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
       <a className="navbar-brand" href="/">Patrick Cheung</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

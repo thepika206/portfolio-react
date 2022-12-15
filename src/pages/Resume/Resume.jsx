@@ -9,7 +9,7 @@ function Resume({workExperience}){
       </h1>
       <span>
         <a href="/resume/Resume-Patrick-Cheung.pdf" download>
-          <button className="btn btn-outline-dark shadow">Download PDF</button>
+          <button className="btn btn-dark shadow">Download PDF</button>
         </a>
       </span>
       <div className="column justify-content-center card-deck mt-5">

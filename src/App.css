@@ -5,9 +5,19 @@ body,
   height: 100%;
   /* overflow: hidden; */
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Lato', sans-serif;
   /* background-color: black; */
   /* dark color is 212529 */
+  color: #212529;
+}
+
+.btn-dark{
+  background-color: #46518B;
+}
+
+.btn-outline-dark{
+  color:#46518B;
+  border-color: #46518B;
 }
 
 .project-preview-card{
@@ -34,6 +44,8 @@ main {
 
 h1 {
   margin-bottom: 20px;
+  font-family: 'Lustria', serif;
+  color: #46518B;
 }
 
 .page-container-center {
@@ -45,6 +57,11 @@ h1 {
 
 nav a {
   color: white
+}
+
+nav a:hover{
+  color: white;
+  text-decoration-thickness: 3px;
 }
 
 .column-centered-content{
@@ -72,7 +89,7 @@ nav a {
   width: 90%;
   max-width: 800px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 30px;
 }
 

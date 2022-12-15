@@ -1,6 +1,7 @@
 import HomeCard from "../../components/HomeCard"
 import './home.css'
 import TechSkillsCard from "../../components/TechSkillsCard"
+import BioCard from "../../components/BioCard"
 
 function Home(){
   return (  
@@ -11,6 +12,7 @@ function Home(){
         </div>
         <HomeCard/> 
         <TechSkillsCard/>
+        <BioCard/>
       </div>
       <a href="/projects">
         <button className="mb-3 btn btn-lg btn-dark shadow">View Projects</button>
