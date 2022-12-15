@@ -2,7 +2,7 @@ const BioCard = () => {
   return (  
     <div className="card p-4 home-card shadow">
       <div className="card-body">
-        <h3 className="card-title text-center">Professional Journey</h3>
+        <h2 className="card-title text-center mb-3">Professional Journey</h2>
         <p>
           My career in tech started in Portland Oregon with supporting Insurance CRM, training, and implementing clients.  I gained a mastery and love for the business of software.  Then I took a role on the Product team and continued contributing to future capabilities of the software platform.  
         </p>

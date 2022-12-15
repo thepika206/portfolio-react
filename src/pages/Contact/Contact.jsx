@@ -7,7 +7,7 @@ function Contact(props){
       <h1>Contact</h1>
       <div id="contact-info-card" className="card p-4 m-5 contact-card shadow">
         <div className="card-body">
-          <h3 className="card-title">Connect with Me</h3>
+          <h3 className="card-title text-center mb-3">Connect with Me</h3>
           <ul>
             <li>
               <a href="mailto:pika206@gmail.com">

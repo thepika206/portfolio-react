@@ -10,7 +10,7 @@ const ProjectPreview = ({project}) => {
         <div className="card-body">
           <h3>{project.title}</h3>
           <p>
-            <span className="fw-bold">Key Technologies:</span>{project.technologies}
+            <span className="fw-bold">Key Technologies: </span>{project.technologies}
           </p>
           {project.deploymentLink
             ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>

@@ -1,11 +1,22 @@
 
 import { Link } from "react-router-dom";
-
+import { useEffect } from "react";
 const navStyle = {
   backgroundColor:'#46518B'
 }
 
+
+
+
 function NavBar(){
+  useEffect(() => {
+    const navbarNavDiv = document.querySelector('#navbarNav')
+  navbarNavDiv.addEventListener('click', ()=>{
+    navbarNavDiv.classList.remove('show')
+    // console.log(navbarNavDiv)
+  }, [])
+  
+})
   return (  
     <nav style={navStyle} className="fixed-top navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">

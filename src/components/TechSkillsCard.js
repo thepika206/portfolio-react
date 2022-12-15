@@ -3,7 +3,7 @@ const TechSkillsCard = () => {
   return (  
     <div className="card home-card p-3 shadow" >
       <div className="card-body">
-        <h3 className="card-title text-center">Technologies</h3>
+        <h2 className="card-title text-center mb-3">Technologies</h2>
         <div className="flex-row-container justify-content-center">{techSkillsData.map(skill =>
             <div className="" key={skill.title}>{skill.svg}</div>
           )}
