@@ -12,7 +12,7 @@ function Resume({workExperience}){
           <button className="btn btn-outline-dark shadow">Download PDF</button>
         </a>
       </span>
-      <div className="column justify-content-center card-deck">
+      <div className="column justify-content-center card-deck mt-5">
         {workExperience.map(experience => 
           <WorkExperienceCard 
             key={experience.start}

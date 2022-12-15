@@ -6,7 +6,7 @@ const workExperienceData = [
     URL:'https://generalassemb.ly',
     start:'August 2022',
     end:'November 2022',
-    achievements:'Completed 450+ hour professional training over live online instructors to acquire hands-on knowledge of multiple web languages, application frameworks, and databases.  Improved self-organization, research techniques and problem solving',
+    achievements:'Completed 450+ hour professional training with live online instruction resulting in multiple software projects. Skills: JavaScript, HTML, CSS, Python, React, project management, data modeling, SQL, Restful APIs.',
   },
   {
     title:'Product Owner',
@@ -15,7 +15,7 @@ const workExperienceData = [
     URL:'https://www.novideasoft.com',
     start:'March 2022',
     end:'August 2022',
-    achievements:'SalesForce-based Insurance app: Produced user stories from high-level feature requirements, resulting in incremental value delivery',
+    achievements:'Broke down high-level feature requirements into user stories resulting in prioritized product backlog. Skills: SalesForce, Jira.',
   },
   {
     title:'Product Owner',
@@ -24,7 +24,7 @@ const workExperienceData = [
     URL:'https://www.activeprospect.com',
     start:'March 2021',
     end:'March 2022',
-    achievements:'Real-time integration platform for lead marketing: Managed User Story backlog to design, develop and release new features.',
+    achievements:'Owned user stories, scheduled sprint capacity, and release management resulting in Product Led market growth of Lead Integration platform.  Skills: Shortcut, Full Story, Google Analytics.',
   },
   {
     title:'Product Owner',
@@ -33,7 +33,7 @@ const workExperienceData = [
     URL:'https://www.navex.com',
     start:'July 2018',
     end:'March 2021',
-    achievements:'Managed 2 development teams to release a new greenfield product. Achieved > $2.2 M sales pipeline in 3 months',
+    achievements:'PO for 12 person development team to release a new greenfield product. Achieved > $2.2 M sales pipeline in 3 months.  Skills: Jira, Advanced Roadmaps for Jira.',
   },
   {
     title:'Product Owner',
@@ -42,7 +42,7 @@ const workExperienceData = [
     URL:'https://www.hawksoft.com',
     start:'September 2016',
     end:'July 2018',
-    achievements:'Broke down high level requirements into user stories, ensured quality user experience',
+    achievements:'Broke down high level requirements into user stories and led testing resulting in increased monthly reoccuring revenue.  Skills: User flow mapping, Third Party Integration, Balsamiq.',
   },
   {
     title:'Software Trainer/Implementation',
@@ -51,7 +51,7 @@ const workExperienceData = [
     URL:'https://www.hawksoft.com',
     start:'January 2015',
     end:'September 2016',
-    achievements:'Trained clients on software accounting features resulting in completion of implementation projects',
+    achievements:'Trained clients on software accounting features resulting in completion of implementation projects.  Skills: Insurance Agency Trust Accounting, QuickBooks configuration, Instruction through WebEx.',
   },
   {
     title:'Software Technical Support',
@@ -60,7 +60,7 @@ const workExperienceData = [
     URL:'https://www.hawksoft.com',
     start:'July 2012',
     end:'January 2015',
-    achievements:'Resolved clients software issues via phone and online resulting achievement of SLAs and high customer satisfaction',
+    achievements:'Resolved clients software issues via phone and online resulting in excellent call metrics and increased responsibilities to handle accounting related issues.  Skills: Desktop support, Report generation, Troubleshooting.',
   },
   {
     title:'Insurance Agent',
@@ -69,7 +69,7 @@ const workExperienceData = [
     URL:'https://www.boatinsurance.net',
     start:'July 2002',
     end:'June 2012',
-    achievements:'Provide front and backoffice support for local personal lines insurance agent',
+    achievements:'Provide front and backoffice support for local personal lines insurance agent.  Skills: Licensed P&C agent, Computer Networking, Invoicing and Payment processing.',
   },
 ]
 
