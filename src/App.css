@@ -34,6 +34,23 @@ body,
   max-width: 400px
 }
 
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 200px;
+}
+
+form.contact-form > input, form.contact-form > textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form.contact-form > textarea{
+  min-height: 100px;
+}
+
 main {
   min-height: 100vh;
   background-size: cover;

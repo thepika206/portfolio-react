@@ -1,5 +1,6 @@
 import './contact.css'
 import JokeCard from '../../components/JokeCard'
+import ContactForm from '../../components/ContactForm'
 
 function Contact(props){
   return (  
@@ -32,7 +33,7 @@ function Contact(props){
           </ul>
         </div>
       </div>      
-      
+      <ContactForm/>
       {
         props.joke
         ? <JokeCard joke={props.joke} />
