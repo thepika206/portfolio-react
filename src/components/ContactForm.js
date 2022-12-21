@@ -7,7 +7,7 @@ const ContactForm = () => {
   
   const sendEmail = (e) =>{
     e.preventDefault()
-    alert('Message sent, thank you')
+    // alert('Message sent, thank you')
 
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID,
