@@ -27,11 +27,11 @@ const ContactForm = () => {
         <div className='card-body'>
           <h3 className='card-title text-center mb-3'>Send a Message</h3>  
           <form className='contact-form' ref={form} onSubmit={sendEmail} action="">
-            <label for="user_name">Name</label>
+            <label htmlFor="user_name">Name</label>
             <input id="user_name" type="text" name='user_name' required />
-            <label for="user_email">Email</label>
+            <label htmlFor="user_email">Email</label>
             <input id="user_email" type="email" name='user_email' required />
-            <label for="form_message">Message</label>
+            <label htmlFor="form_message">Message</label>
             <textarea id="form_message" name='message' required />
             <input className='mt-3 btn btn-dark' type="submit" value="Send" />
           </form>
