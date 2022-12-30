@@ -4,14 +4,18 @@ const ProjectPreview = ({project}) => {
   let projectUrl = ('/projects/' + hyphenateWords(project.title))
   return (  
       <div className="card m-2 project-preview-card shadow">
-        <a href={projectUrl}>
-          <img src={project.image} alt={project.title} className="project-thumbnail card-img-top p-2"/>
-        </a>
+        <div className="card-img-top project-preview-thumbnail-frame">
+          <a href={projectUrl}>
+            <img src={project.image} alt={project.title} className="project-thumbnail  p-2"/>
+          </a>
+        </div>
         <div className="card-body">
-          <h3>{project.title}</h3>
-          <p>
-            <span className="fw-bold">Key Technologies: </span>{project.technologies}
-          </p>
+          <div className="project-preview-description">
+            <h3>{project.title}</h3>
+            <p>
+              <span className="fw-bold">Key Technologies: </span>{project.technologies}
+            </p>
+          </div>
           {project.deploymentLink
             ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
                 <button className="btn btn-dark m-3 shadow">
