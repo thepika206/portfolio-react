@@ -6,7 +6,7 @@ const ProjectPreview = ({project}) => {
       <div className="card m-2 project-preview-card shadow">
         <div className="card-img-top project-preview-thumbnail-frame">
           <a href={projectUrl}>
-            <img src={project.image} alt={project.title} className="project-thumbnail  p-2"/>
+            <img src={project.image} alt={project.title} className="project-thumbnail"/>
           </a>
         </div>
         <div className="card-body">
@@ -19,7 +19,7 @@ const ProjectPreview = ({project}) => {
           {project.deploymentLink
             ?<a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
                 <button className="btn btn-dark m-3 shadow">
-                Launch Live App
+                Launch App
                 </button>
               </a>
             :<></>

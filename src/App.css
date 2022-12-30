@@ -21,11 +21,13 @@ body,
 }
 
 .project-preview-card{
-  max-width: 400px;
+  width: 100%;
+  max-width: 360px;
+  padding-top: 12px;
 }
 
 .project-preview-thumbnail-frame{
-  /* width: 90%; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +46,7 @@ body,
 }
 
 .card-image {
-  max-width: 400px
+  max-width: 375px
 }
 
 .contact-form {
