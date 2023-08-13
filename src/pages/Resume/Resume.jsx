@@ -1,17 +1,19 @@
 import WorkExperienceCard from "../../components/WorkExperienceCard"
 
 
-function Resume({workExperience}){
+function Resume({workExperience, isDownloadableResume}){
   return (  
     <>  
       <h1>
-        Resume
+        Experience
       </h1>
-      <span>
-        <a href="/resume/Resume-Patrick-Cheung.pdf" download>
-          <button className="btn btn-dark shadow">Download PDF</button>
-        </a>
-      </span>
+      {isDownloadableResume &&
+        <span>
+          <a href="/resume/Resume-Patrick-Cheung.pdf" download>
+            <button className="btn btn-dark shadow">Download PDF</button>
+          </a>
+        </span>
+      }
       <div className="column justify-content-center card-deck mt-5">
         {workExperience.map(experience => 
           <WorkExperienceCard 

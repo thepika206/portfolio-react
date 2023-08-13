@@ -5,9 +5,7 @@ const WorkExperienceCard = ({experience}) => {
       <h5 className="text-center mb-3">{experience.company} - {experience.start} to {experience.end}</h5>
       <h5 className="mb-3"><span className="fw-bold">Achievements:</span> {experience.achievements}</h5>
       <h5 className="mb-3"><span className="fw-bold">Skills:</span> {experience.skills}</h5>
-      
-      <a href="{experience.URL}"> <p>{experience.URL}</p> </a>
-      
+      <a target="_blank" rel="noopener noreferrer" href={experience.URL}> <p>{experience.URL}</p> </a> 
     </article>
   )
 }

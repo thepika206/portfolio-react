@@ -1,5 +1,15 @@
 const workExperienceData = [
   {
+    title:'Web Developer',
+    company:'inquirED',
+    location:'Remote',
+    URL:'https://inquired.com',
+    start:'January 2023',
+    end:'Current',
+    achievements:'First Software Engineering role, contributed code and testing to ensure quality.',
+    skills:'Typescript, React, Express, MongoDB, Material UI, Cypress'
+  },
+  {
     title:'Software Engineering Student',
     company:'General Assembly',
     location:'Remote',
@@ -7,7 +17,7 @@ const workExperienceData = [
     start:'August 2022',
     end:'November 2022',
     achievements:'Completed 450+ hour professional training with live online instruction resulting in multiple software projects.',
-    skills:'Computer Programming, Algorithms, Data Models, RESTful APIs'
+    skills:'Full Stack Web Development, APIs, Problem solving'
   },
   {
     title:'Product Owner | IT Project Manager',

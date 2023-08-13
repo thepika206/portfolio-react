@@ -13,8 +13,8 @@ import { useState, useEffect } from 'react';
 
 
 function App() {
+  const isDownloadableResume = false
   const [joke, setJoke] = useState({})
-
   useEffect(() => {
     const fetchRandomJokeData = async() => {
       const randomJokeData = await getRandomJoke()
@@ -36,6 +36,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/resume' element={<Resume 
           workExperience={workExperienceData}
+          isDownloadableResume={isDownloadableResume}
         />} />
         <Route path='/projects/:projectId' element={<ProjectDetails />} />
       </Routes>
