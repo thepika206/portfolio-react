@@ -7,7 +7,7 @@ const WorkExperienceCard = ({experience}) => {
       <h5 className="mb-3"><span className="fw-bold">Skills:</span> {experience.skills}</h5>
       <a target="_blank" rel="noopener noreferrer" href={experience.URL}> <p>{experience.URL}</p> </a> 
     </article>
-  )
-}
+  );
+};
 
-export default WorkExperienceCard
+export default WorkExperienceCard;

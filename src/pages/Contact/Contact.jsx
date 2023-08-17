@@ -1,8 +1,8 @@
-import './contact.css'
-import JokeCard from '../../components/JokeCard'
-import ContactForm from '../../components/ContactForm'
+import './contact.css';
+import JokeCard from '../../components/JokeCard';
+import ContactForm from '../../components/ContactForm';
 
-function Contact(props){
+function Contact(){
   return (  
     <>
       <h1>Contact</h1>
@@ -15,7 +15,7 @@ function Contact(props){
                 <img className="icon" src="images/icons/icons8-mail-50.png" alt="email" />
                 pika206@gmail.com
               </a>
-              </li>
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/patrick-cheung206/">
                 <img className="icon" src="images/icons/LI-In-Bug.png" alt="LinkedIn" />in/patrick-cheung206/
@@ -39,7 +39,7 @@ function Contact(props){
         <a href="https://icons8.com/license">icons credited to icons8.com</a>
       </div>
     </>
-  )
+  );
 }
   
-export default Contact
+export default Contact;

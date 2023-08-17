@@ -89,8 +89,8 @@ const workExperienceData = [
     achievements:'Provided front and backoffice support for local personal lines insurance agency.',
     skills: 'Licensed P&C agent, Computer Networking, Invoicing and Payment processing',
   },
-]
+];
 
 export {
   workExperienceData
-}
+};

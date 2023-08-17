@@ -1,4 +1,4 @@
-import WorkExperienceCard from "../../components/WorkExperienceCard"
+import WorkExperienceCard from '../../components/WorkExperienceCard';
 
 
 function Resume({workExperience, isDownloadableResume}){
@@ -26,7 +26,7 @@ function Resume({workExperience, isDownloadableResume}){
         <button className="btn btn-lg btn-dark m-3 shadow">Contact Info</button>
       </a>
     </>
-  )
+  );
 }
 
-export default Resume
+export default Resume;

@@ -1,3 +1,4 @@
+
 const BioCard = () => {
   return (  
     <div className="card p-4 home-card shadow">
@@ -14,7 +15,7 @@ const BioCard = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default BioCard;

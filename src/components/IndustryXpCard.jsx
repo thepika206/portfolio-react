@@ -1,3 +1,5 @@
+import React from 'react';
+
 const IndustryXpCard = () => {
   return (  
     <div className="card m-3">
@@ -10,7 +12,7 @@ const IndustryXpCard = () => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default IndustryXpCard;

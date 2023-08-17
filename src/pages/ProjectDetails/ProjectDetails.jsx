@@ -1,12 +1,12 @@
 // import { projectsData as projects } from "../data/projects"
-import { useParams } from "react-router-dom"
-import { findProject } from "../../utilities/findProject"
-import ProjectDetailCard from "../../components/ProjectDetailCard"
+import { useParams } from 'react-router-dom';
+import { findProject } from '../../utilities/findProject';
+import ProjectDetailCard from '../../components/ProjectDetailCard';
 
 const ProjectDetails = () => {
 //route path reminder '/projects/:projectId'
-  let { projectId }  = useParams() 
-  let project = findProject(projectId)
+  let { projectId } = useParams(); 
+  let project = findProject(projectId);
   
   return (
     <div className="p-3">
@@ -23,13 +23,13 @@ const ProjectDetails = () => {
       </div>
       {project.image2 
         ? <>
-            <div className="m-5">
-              <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
-                <img src={project.image2} alt={project.title} className="img-fluid shadow"/> 
-              </a>
-              <h5>Screen image from app</h5>
-            </div>
-          </>
+          <div className="m-5">
+            <a target="_blank" rel="noopener noreferrer" href={project.deploymentLink}>
+              <img src={project.image2} alt={project.title} className="img-fluid shadow"/> 
+            </a>
+            <h5>Screen image from app</h5>
+          </div>
+        </>
         : <></>
       }
       <div className="column-centered-content">
@@ -38,7 +38,7 @@ const ProjectDetails = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectDetails
+export default ProjectDetails;
