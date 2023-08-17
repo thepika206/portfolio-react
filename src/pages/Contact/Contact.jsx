@@ -34,11 +34,7 @@ function Contact(props){
         </div>
       </div>      
       <ContactForm/>
-      {
-        props.joke
-        ? <JokeCard joke={props.joke} />
-        :<></>
-      }
+      <JokeCard />
       <div className="">
         <a href="https://icons8.com/license">icons credited to icons8.com</a>
       </div>
