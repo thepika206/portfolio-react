@@ -11,6 +11,21 @@ body,
   color: #212529;
 }
 
+body {
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+p,
+li,
+label,
+input,
+textarea,
+figcaption {
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
 .btn-dark {
   background-color: #46518b;
 }
@@ -89,6 +104,13 @@ h1 {
 
 nav a {
   color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+nav .navbar-brand {
+  font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -147,6 +169,19 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 950px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  p,
+  li,
+  label,
+  input,
+  textarea,
+  figcaption {
+    font-size: 1.125rem;
+  }
+
   main {
     margin-top: 50px;
   }

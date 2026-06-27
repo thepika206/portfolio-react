@@ -11,7 +11,7 @@ const ProjectPreview = ({ project }) => {
       </div>
       <div className='card-body'>
         <div className='project-preview-description'>
-          <h3>{project.title}</h3>
+          <h2>{project.title}</h2>
           <p>
             <span className='fw-bold'>Key Technologies: </span>
             {project.technologies}

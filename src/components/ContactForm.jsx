@@ -26,7 +26,7 @@ const ContactForm = () => {
   return (
     <div className='card p-4 m-5 contact-card  shadow'>
       <div className='card-body'>
-        <h3 className='card-title text-center mb-3'>Send a Message</h3>
+        <h2 className='card-title text-center mb-3'>Send a Message</h2>
         <form className='contact-form' ref={form} onSubmit={sendEmail} action=''>
           <label htmlFor='user_name'>Name</label>
           <input id='user_name' type='text' name='user_name' required />

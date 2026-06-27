@@ -28,12 +28,12 @@ const JokeCard = () => {
   return (
     <div className='card p-4 m-5 contact-card shadow'>
       <div className='card-body'>
-        <h3 className='card-title text-center mb-3'>Just for Fun: Joke API</h3>
+        <h2 className='card-title text-center mb-3'>Just for Fun: Joke API</h2>
         <p>{text}</p>
-        {joke && <h5 className='mb-5'>{joke}</h5>}
-        <h6>
+        {joke && <p className='mb-5'>{joke}</p>}
+        <p className='mb-0'>
           Credit: <a href='https://api.chucknorris.io/'>https://api.chucknorris.io/</a>
-        </h6>
+        </p>
       </div>
     </div>
   );

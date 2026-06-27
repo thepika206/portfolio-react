@@ -2,7 +2,7 @@ const ProjectDetailCard = ({ project }) => {
   return (
     <div className='card mb-2 m-5 shadow'>
       <div className='card-body'>
-        <h5>{project.description}</h5>
+        <p>{project.description}</p>
         <ul>
           <li className='fw-bold'>Technologies: {project.technologies}</li>
           <li>Key takeaways: {project.takeaways}</li>

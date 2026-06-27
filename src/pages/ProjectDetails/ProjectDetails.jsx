@@ -13,15 +13,15 @@ const ProjectDetails = () => {
         <h1> {project.title} </h1>
       </div>
       <ProjectDetailCard project={project} />
-      <div className='m-5'>
+      <figure className='m-5'>
         <img src={project.image} alt={project.title} className='img-fluid shadow' />
-        <h5>Screen image from app</h5>
-      </div>
+        <figcaption>Screen image from app</figcaption>
+      </figure>
       {project.image2 && (
-        <div className='m-5'>
+        <figure className='m-5'>
           <img src={project.image2} alt={project.title} className='img-fluid shadow' />
-          <h5>Screen image from app</h5>
-        </div>
+          <figcaption>Screen image from app</figcaption>
+        </figure>
       )}
       <div className='column-centered-content'>
         <a href='/projects'>
