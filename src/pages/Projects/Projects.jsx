@@ -1,14 +1,14 @@
 import ProjectList from '../../components/ProjectList';
-import { projectsData } from '../../data/projects';
+import projectsData from '../../data/projects.json';
 
-function Projects(){
-  return (  
+function Projects() {
+  return (
     <>
       <h1>Projects</h1>
       <ProjectList projects={projectsData} />
       <span>
-        <a href="/resume">
-          <button className="btn btn-lg btn-dark m-3 shadow">View Resume</button>
+        <a href='/resume'>
+          <button className='btn btn-lg btn-dark m-3 shadow'>View Resume</button>
         </a>
       </span>
     </>

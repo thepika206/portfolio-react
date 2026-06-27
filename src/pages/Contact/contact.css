@@ -1,9 +1,7 @@
-.icon{
+.icon {
   width: 50px;
   margin-right: 10px;
 }
-
-
 
 #contact-info-card ul {
   list-style-type: none;
@@ -14,4 +12,3 @@
 #contact-info-card li {
   margin-bottom: 40px;
 }
-

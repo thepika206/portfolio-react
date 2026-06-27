@@ -9,25 +9,28 @@ import Projects from './pages/Projects/Projects';
 import Resume from './pages/Resume/Resume';
 import NavBar from './components/NavBar';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
-import { workExperienceData } from './data/workExperience';
+import workExperienceData from './data/workExperience.json';
 
 function App() {
   const isDownloadableResume = false;
-
 
   return (
     <>
       <NavBar />
       <main className='d-flex flex-column  align-items-center'>
         <Routes>
-          <Route path='/' element={<Home 
-          />} />
+          <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/resume' element={<Resume 
-            workExperience={workExperienceData}
-            isDownloadableResume={isDownloadableResume}
-          />} />
+          <Route
+            path='/resume'
+            element={
+              <Resume
+                workExperience={workExperienceData}
+                isDownloadableResume={isDownloadableResume}
+              />
+            }
+          />
           <Route path='/projects/:projectId' element={<ProjectDetails />} />
         </Routes>
       </main>
