@@ -2,27 +2,17 @@ import HomeCard from '../../components/HomeCard';
 import './home.css';
 import TechSkillsCard from '../../components/TechSkillsCard';
 import BioCard from '../../components/BioCard';
+import Resume from '../Resume/Resume';
 
 function Home() {
   return (
     <>
       <div id='home-container'>
-        <div className='home-image-container'>
-          <img
-            id='home-image'
-            className='shadow'
-            src='https://i.imgur.com/rp5M5ah.jpg'
-            title='source: imgur.com'
-            alt='headshot of Patrick Cheung'
-          />
-        </div>
         <HomeCard />
         <TechSkillsCard />
         <BioCard />
       </div>
-      <a href='/resume'>
-        <button className='mb-3 btn btn-lg btn-dark shadow'>View Experience</button>
-      </a>
+      <Resume isDownloadableResume={false} />
     </>
   );
 }

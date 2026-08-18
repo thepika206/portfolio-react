@@ -13,8 +13,6 @@ html {
 }
 
 body {
-  background-color: gray;
-  /* Use a system font, if none are available use an available sans-sarif font */
-  font-family: 'Lato', sans-serif;
+  background-color: #fffdf8;
   margin: 0;
 }

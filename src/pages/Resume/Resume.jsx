@@ -1,9 +1,10 @@
 import WorkExperienceCard from '../../components/WorkExperienceCard';
+import workExperience from '../../data/workExperience';
 
-function Resume({ workExperience, isDownloadableResume }) {
+function Resume({ isDownloadableResume }) {
   return (
-    <>
-      <h1>Experience</h1>
+    <section>
+      <h2>Experience</h2>
       {isDownloadableResume && (
         <span>
           <a href='/resume/Resume-Patrick-Cheung.pdf' download>
@@ -19,7 +20,7 @@ function Resume({ workExperience, isDownloadableResume }) {
       <a href='/contact'>
         <button className='btn btn-lg btn-dark m-3 shadow'>Contact Info</button>
       </a>
-    </>
+    </section>
   );
 }
 
