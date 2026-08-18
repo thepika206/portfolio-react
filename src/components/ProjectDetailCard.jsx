@@ -1,25 +1,36 @@
 const ProjectDetailCard = ({ project }) => {
   return (
-    <div className='card mb-2 m-5 shadow'>
+    <article className='card mb-2 project-detail-card shadow'>
       <div className='card-body'>
-        <p>{project.description}</p>
-        <ul>
-          <li className='fw-bold'>Technologies: {project.technologies}</li>
-          <li>Key takeaways: {project.takeaways}</li>
-          {project.otherContributors && <li>{project.otherContributors}</li>}
+        <p className='project-detail-summary'>{project.description}</p>
+        <ul className='project-detail-list'>
+          <li>
+            <span className='fw-bold'>Technologies:</span> {project.technologies}
+          </li>
+          <li>
+            <span className='fw-bold'>Key takeaways:</span> {project.takeaways}
+          </li>
+          {project.otherContributors && (
+            <li>
+              <span className='fw-bold'>Collaborators:</span> {project.otherContributors}
+            </li>
+          )}
           <li>
             <a target='_blank' rel='noopener noreferrer' href={project.repositoryLink}>
-              GitHub Project
+              GitHub Repository
             </a>
           </li>
         </ul>
-        {project.deploymentLink && (
-          <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
-            <button className='btn btn-lg btn-dark m-3 shadow'>Launch Live App</button>
-          </a>
-        )}
+
+        <div className='project-detail-actions'>
+          {project.deploymentLink && (
+            <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
+              <button className='btn btn-lg btn-dark shadow'>Launch Live App</button>
+            </a>
+          )}
+        </div>
       </div>
-    </div>
+    </article>
   );
 };
 

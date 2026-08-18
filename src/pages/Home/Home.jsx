@@ -6,14 +6,16 @@ import Resume from '../Resume/Resume';
 
 function Home() {
   return (
-    <>
-      <div id='home-container'>
+    <section className='home-shell'>
+      <div id='home-container' className='home-content-grid'>
         <HomeCard />
         <TechSkillsCard />
         <BioCard />
       </div>
-      <Resume isDownloadableResume={false} />
-    </>
+      <section className='home-experience-section'>
+        <Resume isDownloadableResume={false} />
+      </section>
+    </section>
   );
 }
 

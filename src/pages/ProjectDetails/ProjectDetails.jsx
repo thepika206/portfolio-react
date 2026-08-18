@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { findProject } from '../../utilities/findProject';
 import ProjectDetailCard from '../../components/ProjectDetailCard';
 
@@ -8,27 +9,32 @@ const ProjectDetails = () => {
   let project = findProject(projectId);
 
   return (
-    <div className='p-3'>
-      <div className='column-centered-content'>
-        <h1> {project.title} </h1>
-      </div>
+    <section className='project-detail-shell'>
+      <header className='project-detail-header'>
+        <p className='projects-eyebrow'>Project Breakdown</p>
+        <h1>{project.title}</h1>
+      </header>
+
       <ProjectDetailCard project={project} />
-      <figure className='m-5'>
+
+      <figure className='project-detail-figure'>
         <img src={project.image} alt={project.title} className='img-fluid shadow' />
         <figcaption>Screen image from app</figcaption>
       </figure>
+
       {project.image2 && (
-        <figure className='m-5'>
+        <figure className='project-detail-figure'>
           <img src={project.image2} alt={project.title} className='img-fluid shadow' />
           <figcaption>Screen image from app</figcaption>
         </figure>
       )}
-      <div className='column-centered-content'>
-        <a href='/projects'>
+
+      <div className='column-centered-content project-detail-footer'>
+        <Link to='/projects'>
           <button className='btn btn-lg btn-outline-dark mb-3 mt-3 shadow'>Back to Projects</button>
-        </a>
+        </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

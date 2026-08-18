@@ -1,34 +1,39 @@
+import { Link } from 'react-router-dom';
 import { hyphenateWords } from '../utilities/hyphenateWords';
 
 const ProjectPreview = ({ project }) => {
   let projectUrl = '/projects/' + hyphenateWords(project.title);
+
   return (
-    <div className='card m-2 project-preview-card shadow'>
+    <article className='card m-2 project-preview-card shadow'>
       <div className='card-img-top project-preview-thumbnail-frame'>
-        <a href={projectUrl}>
+        <Link to={projectUrl} aria-label={`Open details for ${project.title}`}>
           <img src={project.image} alt={project.title} className='project-thumbnail' />
-        </a>
+        </Link>
       </div>
       <div className='card-body'>
         <div className='project-preview-description'>
-          <h2>{project.title}</h2>
+          <h2 className='project-preview-title'>{project.title}</h2>
+          <p>{project.description}</p>
           <p>
             <span className='fw-bold'>Key Technologies: </span>
             {project.technologies}
           </p>
         </div>
-        {project.deploymentLink ? (
-          <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
-            <button className='btn btn-dark m-3 shadow'>Launch App</button>
-          </a>
-        ) : (
-          <></>
-        )}
-        <a href={'/projects/' + hyphenateWords(project.title)}>
-          <button className='btn btn-outline-dark m-3 shadow'> Learn More </button>
-        </a>
+
+        <div className='project-preview-actions'>
+          {project.deploymentLink && (
+            <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
+              <button className='btn btn-dark shadow'>Launch App</button>
+            </a>
+          )}
+
+          <Link to={projectUrl}>
+            <button className='btn btn-outline-dark shadow'>Learn More</button>
+          </Link>
+        </div>
       </div>
-    </div>
+    </article>
   );
 };
 export default ProjectPreview;

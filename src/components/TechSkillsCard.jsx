@@ -1,18 +1,19 @@
 import { techSkillsData } from '../data/techSkills';
 const TechSkillsCard = () => {
   return (
-    <div className='card home-card p-3 shadow'>
+    <section className='card home-card home-panel-card p-4 shadow'>
       <div className='card-body'>
-        <h2 className='card-title text-center mb-3'>Technologies</h2>
-        <div className='flex-row-container justify-content-center'>
+        <h2 className='card-title home-panel-title mb-3'>Technologies</h2>
+        <div className='skills-grid'>
           {techSkillsData.map((skill) => (
-            <div className='' key={skill.title}>
-              {skill.svg}
+            <div className='skill-tile' key={skill.title}>
+              <div className='skill-icon-frame'>{skill.svg}</div>
+              <p className='skill-label'>{skill.title}</p>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default TechSkillsCard;

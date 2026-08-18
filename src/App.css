@@ -42,6 +42,23 @@ body {
   letter-spacing: 0.01em;
 }
 
+a {
+  color: var(--color-brand);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-brand-strong);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid rgba(31, 111, 120, 0.45);
+  outline-offset: 2px;
+}
+
 p,
 li,
 label,
@@ -63,13 +80,66 @@ figcaption {
   border-color: var(--color-brand);
 }
 
+.btn {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.projects-shell,
+.project-detail-shell {
+  width: min(1120px, 94vw);
+  margin-inline: auto;
+}
+
+.projects-hero,
+.project-detail-header {
+  margin-bottom: var(--space-5);
+  text-align: center;
+}
+
+.projects-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  font-size: 0.78rem;
+  color: var(--color-brand);
+  margin: 0;
+}
+
+.projects-intro {
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: var(--space-4);
+}
+
+.projects-cta-row {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
 .project-preview-card {
   width: 100%;
-  max-width: 360px;
+  max-width: 100%;
   padding-top: var(--space-3);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background: var(--color-surface);
+  overflow: hidden;
+  margin: 0;
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
@@ -85,18 +155,76 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .project-thumbnail {
   object-fit: cover;
   overflow: hidden;
-  height: 280px;
+  height: 240px;
   width: 100%;
-  border-radius: var(--radius-sm);
+  border-radius: 0;
 }
 
 .project-preview-description {
-  min-height: 120px;
+  min-height: 190px;
+}
+
+.project-preview-title {
+  font-size: 1.55rem;
+  margin-bottom: var(--space-2);
+}
+
+.project-preview-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.project-preview-actions .btn {
+  min-width: 136px;
+}
+
+.project-detail-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin: var(--space-4) 0;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.project-detail-summary {
+  font-size: 1.1rem;
+  color: var(--color-ink);
+}
+
+.project-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-left: 1.2rem;
+}
+
+.project-detail-actions {
+  margin-top: var(--space-4);
+}
+
+.project-detail-figure {
+  margin: var(--space-4) 0;
+}
+
+.project-detail-figure img {
+  width: 100%;
+  border-radius: var(--radius-md);
+}
+
+.project-detail-figure figcaption {
+  margin-top: var(--space-2);
+  text-align: center;
+}
+
+.project-detail-footer {
+  margin-top: var(--space-4);
 }
 
 .card-image {
@@ -109,16 +237,37 @@ figcaption {
   align-items: flex-start;
   justify-content: center;
   min-width: 200px;
+  gap: var(--space-1);
 }
 
 form.contact-form > input,
 form.contact-form > textarea {
   width: 100%;
   margin-bottom: 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  padding: 0.62rem 0.78rem;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 form.contact-form > textarea {
-  min-height: 100px;
+  min-height: 120px;
+}
+
+form.contact-form > input:focus,
+form.contact-form > textarea:focus {
+  outline: 2px solid rgba(31, 111, 120, 0.3);
+  border-color: var(--color-brand);
+}
+
+.contact-form button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.contact-status-message {
+  color: var(--color-brand-strong);
+  font-weight: 600;
 }
 
 main {
@@ -242,6 +391,15 @@ h3 {
   margin-right: auto;
 }
 
+.resume-section > h2 {
+  margin-bottom: var(--space-4);
+}
+
+.resume-cta-row {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-card {
   width: 100%;
   max-width: 600px;
@@ -283,6 +441,11 @@ h3 {
 
   .nav-link-custom {
     margin-left: 0.4rem;
+  }
+
+  .projects-shell,
+  .project-detail-shell {
+    width: min(1120px, 92vw);
   }
 }
 

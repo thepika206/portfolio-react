@@ -1,9 +1,10 @@
 import WorkExperienceCard from '../../components/WorkExperienceCard';
+import { Link } from 'react-router-dom';
 import workExperience from '../../data/workExperience';
 
 function Resume({ isDownloadableResume }) {
   return (
-    <section>
+    <section className='resume-section'>
       <h2>Experience</h2>
       {isDownloadableResume && (
         <span>
@@ -17,9 +18,11 @@ function Resume({ isDownloadableResume }) {
           <WorkExperienceCard key={experience.start} experience={experience} />
         ))}
       </div>
-      <a href='/contact'>
-        <button className='btn btn-lg btn-dark m-3 shadow'>Contact Info</button>
-      </a>
+      <div className='resume-cta-row'>
+        <Link to='/contact'>
+          <button className='btn btn-lg btn-dark m-3 shadow'>Contact Info</button>
+        </Link>
+      </div>
     </section>
   );
 }

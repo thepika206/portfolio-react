@@ -1,14 +1,84 @@
 .icon {
-  width: 50px;
-  margin-right: 10px;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  margin-right: var(--space-2);
+}
+
+.contact-shell {
+  width: min(1120px, 94vw);
+  margin-inline: auto;
+}
+
+.contact-hero {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+
+.contact-intro {
+  max-width: 58ch;
+  margin: 0 auto;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+#contact-info-card,
+.contact-grid .contact-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: rgba(255, 255, 255, 0.84);
 }
 
 #contact-info-card ul {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 10px;
+  margin-top: var(--space-3);
+  margin-bottom: 0;
 }
 
 #contact-info-card li {
-  margin-bottom: 40px;
+  margin-bottom: var(--space-3);
+}
+
+#contact-info-card li a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-ink);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact-info-card li a:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.codewars-row {
+  margin-top: var(--space-4);
+}
+
+.codewars-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-footer-note {
+  text-align: center;
+  margin-top: var(--space-4);
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-shell {
+    width: min(1120px, 92vw);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }
