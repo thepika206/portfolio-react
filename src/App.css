@@ -80,6 +80,12 @@ figcaption {
   border-color: var(--color-brand);
 }
 
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #1f6f78;
+  border-color: #1f6f78;
+}
+
 .btn {
   transition:
     background-color 0.2s ease,
@@ -304,9 +310,9 @@ h3 {
 }
 
 .portfolio-nav {
-  background: rgba(31, 41, 51, 0.88);
+  background: linear-gradient(100deg, rgba(21, 86, 93, 0.95), rgba(31, 111, 120, 0.93));
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(241, 169, 78, 0.3);
 }
 
 .portfolio-nav .navbar-brand.brand-mark {
@@ -347,8 +353,8 @@ h3 {
 .nav-link-custom::after {
   content: '';
   position: absolute;
-  left: 0.5rem;
-  right: 0.5rem;
+  left: -0.15rem;
+  right: -0.15rem;
   bottom: 0.25rem;
   height: 2px;
   background-color: var(--color-accent);
@@ -436,7 +442,7 @@ h3 {
 
 @media only screen and (max-width: 991px) {
   .portfolio-nav {
-    background: rgba(31, 41, 51, 0.95);
+    background: linear-gradient(100deg, rgba(21, 86, 93, 0.98), rgba(31, 111, 120, 0.96));
   }
 
   .nav-link-custom {

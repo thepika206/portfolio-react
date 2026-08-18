@@ -21,9 +21,8 @@
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--space-4);
+  display: flex;
+  justify-content: center;
   margin-bottom: var(--space-4);
 }
 
@@ -76,9 +75,5 @@
 @media only screen and (max-width: 991px) {
   .contact-shell {
     width: min(1120px, 92vw);
-  }
-
-  .contact-grid {
-    grid-template-columns: 1fr;
   }
 }

@@ -308,6 +308,120 @@ const techSkillsData = [
     ),
   },
   {
+    title: 'Payload CMS',
+    type: 'headless-cms',
+    svg: (
+      <svg
+        alt='Payload CMS icon'
+        xmlns='http://www.w3.org/2000/svg'
+        width='64'
+        height='64'
+        viewBox='0 0 102.4 102.4'
+      >
+        <path
+          fill='#0F0F0F'
+          d='M50.67,86.55l-29.8-17.2c-.37-.22-.6-.61-.6-1.04v-26.56c0-.46.5-.75.9-.52l34.6,19.98c.48.28,1.09-.07,1.09-.63v-12.96c0-.52-.28-.99-.72-1.25L14.5,22.32c-.37-.22-.83-.22-1.21,0l-5.45,3.15c-.37.22-.6.61-.6,1.04v49.37c0,.43.23.83.6,1.04l42.75,24.68c.37.22.83.22,1.21,0l35.9-20.73c.48-.28.48-.97,0-1.25l-11.2-6.47c-.45-.26-1-.26-1.45,0l-23.18,13.38c-.37.22-.83.22-1.21,0Z'
+        ></path>
+        <path
+          fill='#0F0F0F'
+          d='M94.56,25.47L51.8.79c-.37-.22-.83-.22-1.21,0l-22.6,13.05c-.48.28-.48.97,0,1.25l11.1,6.41c.45.26,1,.26,1.45,0l10.12-5.84c.37-.22.83-.22,1.21,0l29.8,17.2c.37.22.6.61.6,1.04v26.7c0,.52.28.99.72,1.25l11.08,6.4c.48.28,1.09-.07,1.09-.63V26.52c0-.43-.23-.83-.6-1.04Z'
+        ></path>
+      </svg>
+    ),
+  },
+  {
+    title: 'Cypress',
+    type: 'testing-framework',
+    svg: (
+      <svg
+        alt='Cypress icon'
+        xmlns='http://www.w3.org/2000/svg'
+        x='0px'
+        y='0px'
+        width='64'
+        height='64'
+        viewBox='0 0 64 64'
+      >
+        <circle cx='32' cy='32' r='26' fill='#052b2f'></circle>
+        <circle cx='32' cy='32' r='17' fill='none' stroke='#5eead4' strokeWidth='4'></circle>
+        <path
+          fill='#5eead4'
+          d='M22 32c0-5.8 4.5-10.5 10-10.5 2.9 0 5.6 1.3 7.5 3.4l2.8-2.6C39.9 19.6 36.1 18 32 18c-7.7 0-14 6.3-14 14s6.3 14 14 14c4.1 0 7.9-1.6 10.3-4.3l-2.8-2.6c-1.9 2.1-4.6 3.4-7.5 3.4-5.5 0-10-4.7-10-10.5z'
+        ></path>
+      </svg>
+    ),
+  },
+  {
+    title: 'AWS',
+    type: 'cloud-platform',
+    svg: (
+      <svg
+        alt='AWS icon'
+        xmlns='http://www.w3.org/2000/svg'
+        width='64'
+        height='64'
+        viewBox='0 0 64 64'
+      >
+        <rect x='6' y='10' width='52' height='44' rx='8' fill='#1f2933'></rect>
+        <text
+          x='32'
+          y='34'
+          textAnchor='middle'
+          fontSize='16'
+          fontFamily='Arial, sans-serif'
+          fontWeight='700'
+          fill='#ffffff'
+        >
+          aws
+        </text>
+        <path
+          d='M20 42c6 4 18 4 24 0'
+          fill='none'
+          stroke='#f59e0b'
+          strokeWidth='3'
+          strokeLinecap='round'
+        ></path>
+      </svg>
+    ),
+  },
+  {
+    title: 'Claude AI',
+    type: 'ai-assistant',
+    svg: (
+      <svg
+        alt='Claude AI icon'
+        xmlns='http://www.w3.org/2000/svg'
+        width='64'
+        height='64'
+        viewBox='0 0 64 64'
+      >
+        <rect x='6' y='6' width='52' height='52' rx='10' fill='#d97706'></rect>
+        <text
+          x='32'
+          y='31'
+          textAnchor='middle'
+          fontSize='11'
+          fontFamily='Arial, sans-serif'
+          fontWeight='700'
+          fill='#ffffff'
+        >
+          Claude
+        </text>
+        <text
+          x='32'
+          y='45'
+          textAnchor='middle'
+          fontSize='11'
+          fontFamily='Arial, sans-serif'
+          fontWeight='700'
+          fill='#ffffff'
+        >
+          AI
+        </text>
+      </svg>
+    ),
+  },
+  {
     title: 'PostMan',
     type: 'API testing tool',
     svg: (

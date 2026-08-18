@@ -1,5 +1,4 @@
 import './contact.css';
-import ContactForm from '../../components/ContactForm';
 
 function Contact() {
   return (
@@ -48,8 +47,6 @@ function Contact() {
             </ul>
           </div>
         </section>
-
-        <ContactForm />
       </div>
 
       <footer className='contact-footer-note'>

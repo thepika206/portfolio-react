@@ -38,9 +38,7 @@ function NavBar() {
               <NavLink
                 to='/'
                 end
-                className={({ isActive }) =>
-                  `nav-link nav-link-custom${isActive ? ' active' : ''}`
-                }
+                className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
               >
                 Home
               </NavLink>
@@ -48,9 +46,7 @@ function NavBar() {
             <li className='nav-item'>
               <NavLink
                 to='/projects'
-                className={({ isActive }) =>
-                  `nav-link nav-link-custom${isActive ? ' active' : ''}`
-                }
+                className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
               >
                 Projects
               </NavLink>
@@ -58,9 +54,7 @@ function NavBar() {
             <li className='nav-item'>
               <NavLink
                 to='/contact'
-                className={({ isActive }) =>
-                  `nav-link nav-link-custom${isActive ? ' active' : ''}`
-                }
+                className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
               >
                 Contact
               </NavLink>

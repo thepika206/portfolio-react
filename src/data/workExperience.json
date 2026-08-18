@@ -1,13 +1,13 @@
 [
   {
-    "title": "Web Developer",
+    "title": "Software Engineer",
     "company": "inquirED",
     "location": "Remote",
     "URL": "https://inquired.com",
     "start": "January 2023",
     "end": "Current",
-    "achievements": "Over 3 years at inquirED delivering production features, building reliable test coverage, integrating external platforms, and coordinating implementation with offshore engineers.",
-    "skills": "TypeScript, React, Express, MongoDB, Material UI, Unit Testing, End-to-End Testing, Cypress, Payload CMS, Clever SSO, AWS, Offshore Team Collaboration"
+    "achievements": "At inquirED, I implemented React PDF viewers, designed and implemented the curriculum database structure in Payload CMS, delivered the resolution plan from an accessibility audit, and provided user-permission support using AWS Cognito while continuing to ship full-stack MERN features in production.",
+    "skills": "TypeScript, React, Express, MongoDB, Material UI, React PDF, Unit Testing, End-to-End Testing, Cypress, Payload CMS, AWS Cognito, Clever SSO, AWS, Offshore Team Collaboration"
   },
   {
     "title": "Software Engineering Student",
