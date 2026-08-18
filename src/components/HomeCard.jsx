@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import homeHeroData from '../data/homeHero.json';
 
 const HomeCard = () => {
   return (
@@ -8,11 +9,7 @@ const HomeCard = () => {
         <h1 id='home-title' className='home-hero-title'>
           👋 {"I'm Patrick"}
         </h1>
-        <p className='home-hero-copy'>
-          Specializing in front-end development, I create responsive and user-friendly web
-          applications using React, JavaScript, HTML, and CSS. I have a strong foundation in
-          software engineering principles and a passion for agile methodologies.
-        </p>
+        <p className='home-hero-copy'>{homeHeroData.description}</p>
 
         <div className='hero-cta-row'>
           <Link to='/projects' className='btn btn-dark btn-lg shadow'>
