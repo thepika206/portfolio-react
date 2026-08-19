@@ -21,8 +21,10 @@
 }
 
 .contact-grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: var(--space-4);
   margin-bottom: var(--space-4);
 }
 
@@ -72,8 +74,35 @@
   margin-top: var(--space-4);
 }
 
+.contact-back-home {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.contact-grid .home-card {
+  width: 100%;
+  margin-bottom: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: rgba(255, 255, 255, 0.84);
+}
+
+.contact-grid .home-panel-title {
+  text-align: left;
+}
+
+.contact-grid .home-bio-paragraph {
+  margin-bottom: var(--space-3);
+}
+
 @media only screen and (max-width: 991px) {
   .contact-shell {
     width: min(1120px, 92vw);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 }

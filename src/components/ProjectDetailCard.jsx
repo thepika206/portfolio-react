@@ -24,8 +24,13 @@ const ProjectDetailCard = ({ project }) => {
 
         <div className='project-detail-actions'>
           {project.deploymentLink && (
-            <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
-              <button className='btn btn-lg btn-dark shadow'>Launch Live App</button>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href={project.deploymentLink}
+              className='btn btn-lg btn-dark shadow'
+            >
+              Launch Live App
             </a>
           )}
         </div>

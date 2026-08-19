@@ -30,8 +30,8 @@ const ProjectDetails = () => {
       )}
 
       <div className='column-centered-content project-detail-footer'>
-        <Link to='/projects'>
-          <button className='btn btn-lg btn-outline-dark mb-3 mt-3 shadow'>Back to Projects</button>
+        <Link to='/projects' className='btn btn-lg btn-outline-dark mb-3 mt-3 shadow'>
+          Back to Projects
         </Link>
       </div>
     </section>

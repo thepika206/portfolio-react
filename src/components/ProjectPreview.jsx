@@ -23,13 +23,18 @@ const ProjectPreview = ({ project }) => {
 
         <div className='project-preview-actions'>
           {project.deploymentLink && (
-            <a target='_blank' rel='noopener noreferrer' href={project.deploymentLink}>
-              <button className='btn btn-dark shadow'>Launch App</button>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href={project.deploymentLink}
+              className='btn btn-dark shadow'
+            >
+              Launch App
             </a>
           )}
 
-          <Link to={projectUrl}>
-            <button className='btn btn-outline-dark shadow'>Learn More</button>
+          <Link to={projectUrl} className='btn btn-outline-dark shadow'>
+            Learn More
           </Link>
         </div>
       </div>

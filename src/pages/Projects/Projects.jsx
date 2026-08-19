@@ -15,8 +15,8 @@ function Projects() {
       <ProjectList projects={projectsData} />
 
       <div className='projects-cta-row'>
-        <Link to='/resume'>
-          <button className='btn btn-lg btn-dark m-3 shadow'>View Resume</button>
+        <Link to='/' className='btn btn-lg btn-dark m-3 shadow'>
+          Back to Home
         </Link>
       </div>
     </section>

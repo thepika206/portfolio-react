@@ -35,17 +35,19 @@ const TechSkillsCard = () => {
     .map(({ skill }) => skill);
 
   return (
-    <section className='card home-card home-panel-card p-4 shadow'>
+    <section className='card home-card home-panel-card home-skills-card p-4 shadow'>
       <div className='card-body'>
         <h2 className='card-title home-panel-title mb-3'>Technologies</h2>
-        <div className='skills-grid'>
+        <ul className='skills-grid'>
           {sortedSkills.map((skill) => (
-            <div className='skill-tile' key={skill.title}>
-              <div className='skill-icon-frame'>{skill.svg}</div>
+            <li className='skill-tile' key={skill.title}>
+              <div className='skill-icon-frame' aria-hidden='true'>
+                {skill.svg}
+              </div>
               <p className='skill-label'>{skill.title}</p>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );

@@ -36,10 +36,32 @@ body,
   background-color: var(--color-surface);
 }
 
+html {
+  scroll-padding-top: 120px;
+}
+
 body {
   font-size: 1.0625rem;
   line-height: 1.6;
   letter-spacing: 0.01em;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3.2rem;
+  z-index: 2000;
+  background-color: #fff;
+  color: var(--color-ink);
+  border: 2px solid var(--color-brand);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
 }
 
 a {
@@ -343,11 +365,16 @@ h3 {
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  padding-bottom: 0.8rem;
 }
 
-.nav-link-custom:hover,
+.nav-link-custom:hover {
+  color: #fff;
+}
+
 .nav-link-custom:focus-visible {
   color: #fff;
+  outline: none;
 }
 
 .nav-link-custom::after {
@@ -363,8 +390,7 @@ h3 {
   transition: transform 0.2s ease;
 }
 
-.nav-link-custom:hover::after,
-.nav-link-custom.active::after {
+.nav-link-custom:focus-visible::after {
   transform: scaleX(1);
 }
 
@@ -397,8 +423,28 @@ h3 {
   margin-right: auto;
 }
 
+.education-card {
+  background-color: rgba(246, 245, 239, 0.8);
+  border-left: 4px solid var(--color-accent);
+}
+
 .resume-section > h2 {
   margin-bottom: var(--space-4);
+}
+
+.resume-section h2.mt-3 {
+  margin-top: var(--space-5);
+}
+
+.resume-card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-card-item {
+  margin: 0;
+  padding: 0;
 }
 
 .resume-cta-row {

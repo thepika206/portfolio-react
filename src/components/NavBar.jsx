@@ -16,7 +16,10 @@ function NavBar() {
   }, []);
 
   return (
-    <nav className='fixed-top navbar navbar-expand-lg navbar-dark portfolio-nav'>
+    <nav
+      className='fixed-top navbar navbar-expand-lg navbar-dark portfolio-nav'
+      aria-label='Primary'
+    >
       <div className='container-fluid'>
         <Link className='navbar-brand brand-mark' to='/'>
           Patrick Cheung
@@ -41,14 +44,6 @@ function NavBar() {
                 className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
               >
                 Home
-              </NavLink>
-            </li>
-            <li className='nav-item'>
-              <NavLink
-                to='/projects'
-                className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
-              >
-                Projects
               </NavLink>
             </li>
             <li className='nav-item'>

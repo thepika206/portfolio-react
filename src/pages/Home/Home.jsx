@@ -1,20 +1,29 @@
 import HomeCard from '../../components/HomeCard';
+import { Link } from 'react-router-dom';
 import './home.css';
 import TechSkillsCard from '../../components/TechSkillsCard';
-import BioCard from '../../components/BioCard';
 import Resume from '../Resume/Resume';
 
 function Home() {
   return (
-    <section className='home-shell'>
+    <section id='home-top' className='home-shell'>
       <div id='home-container' className='home-content-grid'>
         <HomeCard />
         <TechSkillsCard />
-        <BioCard />
       </div>
-      <section className='home-experience-section'>
-        <Resume isDownloadableResume={false} />
+      <section
+        id='experience'
+        className='home-experience-section'
+        aria-labelledby='experience-heading'
+      >
+        <Resume />
       </section>
+
+      <div className='home-back-to-top'>
+        <Link to='/#home-top' className='btn btn-outline-dark shadow'>
+          Back to Top
+        </Link>
+      </div>
     </section>
   );
 }

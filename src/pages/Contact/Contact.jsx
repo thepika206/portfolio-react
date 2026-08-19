@@ -1,4 +1,6 @@
 import './contact.css';
+import BioCard from '../../components/BioCard';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -18,7 +20,12 @@ function Contact() {
             <ul>
               <li>
                 <a href='mailto:pika206@gmail.com'>
-                  <img className='icon' src='images/icons/icons8-mail-50.png' alt='email' />
+                  <img
+                    className='icon'
+                    src='images/icons/icons8-mail-50.png'
+                    alt=''
+                    aria-hidden='true'
+                  />
                   <span>pika206@gmail.com</span>
                 </a>
               </li>
@@ -27,14 +34,30 @@ function Contact() {
                   href='https://www.linkedin.com/in/patrick-cheung206/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  aria-label='Visit Patrick Cheung on LinkedIn (opens in new tab)'
                 >
-                  <img className='icon' src='images/icons/LI-In-Bug.png' alt='LinkedIn' />
+                  <img
+                    className='icon'
+                    src='images/icons/LI-In-Bug.png'
+                    alt=''
+                    aria-hidden='true'
+                  />
                   <span>in/patrick-cheung206/</span>
                 </a>
               </li>
               <li>
-                <a href='https://github.com/thepika206' target='_blank' rel='noopener noreferrer'>
-                  <img className='icon' src='images/icons/github-mark.png' alt='GitHub' />
+                <a
+                  href='https://github.com/thepika206'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label='Visit thepika206 on GitHub (opens in new tab)'
+                >
+                  <img
+                    className='icon'
+                    src='images/icons/github-mark.png'
+                    alt=''
+                    aria-hidden='true'
+                  />
                   <span>thepika206</span>
                 </a>
               </li>
@@ -47,10 +70,21 @@ function Contact() {
             </ul>
           </div>
         </section>
-      </div>
 
+        <BioCard />
+      </div>
+      <div className='contact-back-home'>
+        <Link to='/#home-top' className='btn btn-outline-dark shadow'>
+          Back Home
+        </Link>
+      </div>
       <footer className='contact-footer-note'>
-        <a href='https://icons8.com/license' target='_blank' rel='noopener noreferrer'>
+        <a
+          href='https://icons8.com/license'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='View icons8 license page (opens in new tab)'
+        >
           Icons credited to icons8.com
         </a>
       </footer>
