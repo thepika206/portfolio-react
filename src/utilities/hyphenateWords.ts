@@ -1,6 +1,5 @@
-function hyphenateWords(string) {
+function hyphenateWords(string: string): string {
   let newString = string.toLowerCase().split(' ').join('-');
-  // console.log(newString)
   return newString;
 }
 

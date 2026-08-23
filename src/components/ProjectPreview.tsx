@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { hyphenateWords } from '../utilities/hyphenateWords';
+import { ProjectDocument } from '../types/sharedDataTypes';
 
-const ProjectPreview = ({ project }) => {
+const ProjectPreview = ({ project }: { project: ProjectDocument }) => {
   let projectUrl = '/projects/' + hyphenateWords(project.title);
 
   return (

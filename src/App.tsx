@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import './App.css';
+
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import NavBar from './components/NavBar';
