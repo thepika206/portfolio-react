@@ -1,6 +1,6 @@
 # About
 
-- This is my professional portfolio built with React.
+- This is my professional portfolio built with React, React Router and Bootstrap
 - [Please visit the deployed site here](https://patrick-cheung-portfolio.netlify.app/)
 
 # Table of Contents
@@ -20,8 +20,8 @@
 - [Hosted by Netlify](https://app.netlify.com/teams/thepika206/overview)
 - Run `npm start` to start the project locally.
 - The `src/data` folder contains:
-- Project descriptions and screenshot links
 - Work experience
+- Education
 - Tech skills
 
 # Scripts
