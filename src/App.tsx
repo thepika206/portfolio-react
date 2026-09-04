@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 
 import { useEffect } from 'react';
-import { Navigate } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -9,6 +8,8 @@ import './App.css';
 
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
+import Projects from './pages/Projects/Projects';
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 import NavBar from './components/NavBar';
 
 function HashScrollToSection() {
@@ -47,8 +48,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/projects' element={<Navigate to='/' replace />} />
-          <Route path='/projects/:projectId' element={<Navigate to='/' replace />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/projects/:projectId' element={<ProjectDetails />} />
         </Routes>
       </main>
     </>

@@ -2,11 +2,12 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { findProject } from '../../utilities/findProject';
 import ProjectDetailCard from '../../components/ProjectDetailCard';
+import ProjectImage from '../../components/ProjectImage';
 
 const ProjectDetails = () => {
   //route path reminder '/projects/:projectId'
-  let { projectId } = useParams();
-  let project = findProject(projectId);
+  const { projectId } = useParams();
+  const project = findProject(projectId);
 
   return (
     <section className='project-detail-shell'>
@@ -18,13 +19,13 @@ const ProjectDetails = () => {
       <ProjectDetailCard project={project} />
 
       <figure className='project-detail-figure'>
-        <img src={project.image} alt={project.title} className='img-fluid shadow' />
+        <ProjectImage src={project.image} alt={project.title} className='img-fluid shadow' />
         <figcaption>Screen image from app</figcaption>
       </figure>
 
       {project.image2 && (
         <figure className='project-detail-figure'>
-          <img src={project.image2} alt={project.title} className='img-fluid shadow' />
+          <ProjectImage src={project.image2} alt={project.title} className='img-fluid shadow' />
           <figcaption>Screen image from app</figcaption>
         </figure>
       )}

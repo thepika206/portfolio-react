@@ -1,5 +1,5 @@
 function hyphenateWords(string: string): string {
-  let newString = string.toLowerCase().split(' ').join('-');
+  const newString = string.toLowerCase().split(' ').join('-');
   return newString;
 }
 

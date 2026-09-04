@@ -15,11 +15,13 @@ const ProjectDetailCard = ({ project }) => {
               <span className='fw-bold'>Collaborators:</span> {project.otherContributors}
             </li>
           )}
-          <li>
-            <a target='_blank' rel='noopener noreferrer' href={project.repositoryLink}>
-              GitHub Repository
-            </a>
-          </li>
+          {project.repositoryLink && (
+            <li>
+              <a target='_blank' rel='noopener noreferrer' href={project.repositoryLink}>
+                GitHub Repository
+              </a>
+            </li>
+          )}
         </ul>
 
         <div className='project-detail-actions'>

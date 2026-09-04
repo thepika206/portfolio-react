@@ -48,6 +48,14 @@ function NavBar() {
             </li>
             <li className='nav-item'>
               <NavLink
+                to='/projects'
+                className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
                 to='/contact'
                 className={({ isActive }) => `nav-link nav-link-custom${isActive ? ' active' : ''}`}
               >

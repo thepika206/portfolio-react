@@ -4,7 +4,7 @@ const ProjectList = ({ projects }) => {
   return (
     <div className='projects-grid mt-4'>
       {projects.map((project) => (
-        <ProjectPreview key={project.repositoryLink} project={project} />
+        <ProjectPreview key={project.title} project={project} />
       ))}
     </div>
   );

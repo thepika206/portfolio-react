@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
 import { hyphenateWords } from '../utilities/hyphenateWords';
 import { ProjectDocument } from '../types/sharedDataTypes';
+import ProjectImage from './ProjectImage';
 
 const ProjectPreview = ({ project }: { project: ProjectDocument }) => {
-  let projectUrl = '/projects/' + hyphenateWords(project.title);
+  const projectUrl = '/projects/' + hyphenateWords(project.title);
 
   return (
     <article className='card m-2 project-preview-card shadow'>
       <div className='card-img-top project-preview-thumbnail-frame'>
         <Link to={projectUrl} aria-label={`Open details for ${project.title}`}>
-          <img src={project.image} alt={project.title} className='project-thumbnail' />
+          <ProjectImage src={project.image} alt={project.title} className='project-thumbnail' />
         </Link>
       </div>
       <div className='card-body'>

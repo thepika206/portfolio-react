@@ -1,5 +1,15 @@
 [
   {
+    "title": "AWS Codepipeline",
+    "description": "CI/CD pipeline setup using AWS Codepipeline",
+    "technologies": "AWS Codepipeline, AWS CodeBuild, AWS Cloudfront, GitHub Connector",
+    "takeaways": "Experience with automated CI/CD pipeline using AWS services",
+    "image": "https://i.imgur.com/WcFeX5y.png",
+    "image2": "",
+    "repositoryLink": "",
+    "deploymentLink": ""
+  },
+  {
     "title": "Sales Tracker",
     "description": "Client Relationship Management App",
     "technologies": "MongoDB/Mongoose, Express.js, Google OAuth",
