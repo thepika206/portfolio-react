@@ -4,7 +4,7 @@
     "description": "CI/CD pipeline setup using AWS Codepipeline",
     "technologies": "AWS Codepipeline, AWS CodeBuild, AWS Cloudfront, GitHub Connector",
     "takeaways": "Experience with automated CI/CD pipeline using AWS services",
-    "image": "https://i.imgur.com/WcFeX5y.png",
+    "image": "react-code-pipeline-preview-1.png",
     "image2": "",
     "repositoryLink": "",
     "deploymentLink": ""
@@ -14,8 +14,8 @@
     "description": "Client Relationship Management App",
     "technologies": "MongoDB/Mongoose, Express.js, Google OAuth",
     "takeaways": "This project exercised a solving practical business needs",
-    "image": "https://i.imgur.com/bQBIRmQ.png",
-    "image2": "https://i.imgur.com/pn3voF7.png",
+    "image": "sales-tracker-preview-1.png",
+    "image2": "sales-tracker-preview-2.png",
     "repositoryLink": "https://github.com/thepika206/sales-tracker",
     "deploymentLink": ""
   },
@@ -24,20 +24,9 @@
     "description": "Features: Betting, Hi-Lo card-counting, and Double Down",
     "technologies": "JavaScript",
     "takeaways": "This game is can be casually played or used for training with the built-in strategy hints",
-    "image": "https://i.imgur.com/KU8ptIG.png",
-    "image2": "https://i.imgur.com/NH3uI3W.png",
+    "image": "blackjack-preview-1.png",
+    "image2": "blackjack-preview-2.png",
     "repositoryLink": "https://github.com/thepika206/play-blackjack",
     "deploymentLink": "https://thepika206-play-blackjack.netlify.app/"
-  },
-  {
-    "title": "Plan.e",
-    "description": "A MERN-Stack travel app to plan a vacation (React)",
-    "otherContributors": "Group-project with Jennifer Juarez, Chris Elliot, and Naveen Bhatti",
-    "technologies": "MERN Stack, Json Web Token",
-    "takeaways": "This project emphasized the ability to plan and develop as a team",
-    "image": "https://i.imgur.com/lMq2ujy.png",
-    "image2": "https://i.imgur.com/Lso2Ani.png",
-    "repositoryLink": "https://github.com/thepika206/plane-front-end",
-    "deploymentLink": ""
   }
 ]

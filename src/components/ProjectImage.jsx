@@ -1,9 +1,11 @@
+import { mediaUrl } from '../utilities/mediaUrl';
+
 const fallbackImage = '/images/no-image-available.png';
 
 const ProjectImage = ({ src, alt, className }) => {
   return (
     <img
-      src={src || fallbackImage}
+      src={mediaUrl(src) || fallbackImage}
       alt={alt}
       className={className}
       onError={(event) => {
