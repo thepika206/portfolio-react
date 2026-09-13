@@ -1,8 +1,8 @@
 {
   "title": "Professional Journey",
   "paragraphs": [
-    "I am a full-stack developer at inquirED, where I build and maintain MERN applications that deliver inquiry-based curriculum to educators and students across the United States.",
-    "My work spans modern cloud and delivery practices, including AWS services and CI/CD workflows with CodePipeline and CloudFront to support reliable deployments, performant delivery, and scalable architecture.",
-    "I focus on product quality through test automation and build user experiences that are responsive across desktop and mobile. I also prioritize accessibility, designing and implementing interfaces that are inclusive, usable, and aligned with best practices."
+    "I am a full-stack developer at inquirED.  Currently, I have been working with React and Node.js applications that deliver inquiry-based curriculum to educators and students across the United States.",
+    "My work spans a headless CMS, multiple node.js and React applications, and includes management of AWS services and CI/CD workflows to support reliable deployments, performant delivery, and scalable architecture.",
+    "I build pixel perfect UIs that are accessible and responsive across desktop and mobile screen sizes. I partner with designers and stakeholders to translate requirements into intuitive and visually appealing interfaces."
   ]
 }

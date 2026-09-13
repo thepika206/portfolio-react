@@ -7,6 +7,7 @@ const skillDisplayPriority = {
   'Node.js': 4,
   AWS: 6,
   'MongoDB / Mongoose': 7,
+  MUI: 7,
   Figma: 8,
   'Payload CMS': 9,
   Cypress: 10,

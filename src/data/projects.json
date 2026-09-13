@@ -1,9 +1,19 @@
 [
   {
+    "title": "Word Monster",
+    "description": "Gained experience in AI assisted development for learning a new  framework (Vue.js) and styling library (Tailwind CSS).",
+    "technologies": "Vue.js, Tailwind CSS",
+    "takeaways": "Refined game logic with rapid iterations and play testing",
+    "image": "word-monster-preview-1.png",
+    "image2": "",
+    "repositoryLink": "https://github.com/thepika206/word-monster",
+    "deploymentLink": "https://thepika206.github.io/word-monster/"
+  },
+  {
     "title": "AWS Codepipeline",
-    "description": "CI/CD pipeline setup using AWS Codepipeline",
+    "description": "Gained hands-on experience with CI/CD pipeline setup using AWS Codepipeline",
     "technologies": "AWS Codepipeline, AWS CodeBuild, AWS Cloudfront, GitHub Connector",
-    "takeaways": "Experience with automated CI/CD pipeline using AWS services",
+    "takeaways": "Setup a Production-like environment for hosting frontend apps",
     "image": "react-code-pipeline-preview-1.png",
     "image2": "",
     "repositoryLink": "",

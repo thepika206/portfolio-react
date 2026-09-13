@@ -7,9 +7,11 @@ const ProjectDetailCard = ({ project }) => {
           <li>
             <span className='fw-bold'>Technologies:</span> {project.technologies}
           </li>
-          <li>
-            <span className='fw-bold'>Key takeaways:</span> {project.takeaways}
-          </li>
+          {project.takeaways && (
+            <li>
+              <span className='fw-bold'>Key takeaways:</span> {project.takeaways}
+            </li>
+          )}
           {project.otherContributors && (
             <li>
               <span className='fw-bold'>Collaborators:</span> {project.otherContributors}

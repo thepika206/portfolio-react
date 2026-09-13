@@ -21,7 +21,7 @@ export interface ProjectDocument {
   title: string;
   description: string;
   technologies: string;
-  takeaways: string;
+  takeaways?: string;
   image: string;
   image2: string;
   repositoryLink: string;

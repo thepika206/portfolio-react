@@ -242,6 +242,18 @@ const techSkillsData = [
     ),
   },
   {
+    title: 'Vue.js',
+    type: 'frontend-framework',
+    svg: (
+      <img
+        height='48'
+        width='48'
+        alt='Vue.js icon'
+        src='https://img.icons8.com/color/48/vue-js.png'
+      />
+    ),
+  },
+  {
     title: 'PostgreSQL',
     svg: (
       <svg
@@ -348,6 +360,18 @@ const techSkillsData = [
         height='48'
         src='https://img.icons8.com/fluency/48/claude-ai.png'
         alt='claude-ai'
+      />
+    ),
+  },
+  {
+    title: 'MUI',
+    type: 'ui-library',
+    svg: (
+      <img
+        height='48'
+        width='48'
+        alt='MUI icon'
+        src='https://img.icons8.com/color/48/material-ui.png'
       />
     ),
   },
