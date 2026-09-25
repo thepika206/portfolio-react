@@ -5,10 +5,11 @@ const HomeCard = () => {
   return (
     <section className='card p-4 home-card home-hero-card shadow'>
       <div className='card-body hero-card-body'>
-        <p className='hero-eyebrow'>Full-Stack Web Developer</p>
+        <p className='hero-eyebrow'>{homeHeroData.headline}</p>
         <h1 id='home-title' className='home-hero-title'>
           👋 {"I'm Patrick"}
         </h1>
+
         <p className='home-hero-copy'>{homeHeroData.description}</p>
 
         <div className='hero-cta-row'>
