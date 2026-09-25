@@ -6,6 +6,7 @@ const skillDisplayPriority = {
   TypeScript: 3,
   'Node.js': 4,
   AWS: 6,
+  Terraform: 6,
   'MongoDB / Mongoose': 7,
   MUI: 7,
   Figma: 8,

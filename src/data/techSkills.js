@@ -352,6 +352,18 @@ const techSkillsData = [
     ),
   },
   {
+    title: 'Terraform',
+    type: 'infrastructure-as-code',
+    svg: (
+      <img
+        height='48'
+        width='48'
+        alt='Terraform icon'
+        src='https://img.icons8.com/color/48/terraform.png'
+      />
+    ),
+  },
+  {
     title: 'Claude AI',
     type: 'ai-assistant',
     svg: (
